@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9F07F777-DB1C-494D-8776-49F4B8F08D5E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>EmailTemplate</RootNamespace>
+    <AssemblyName>EmailTemplate</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Outlook, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Office.Interop.Outlook.15.0.4797.1003\lib\net20\Microsoft.Office.Interop.Outlook.dll</HintPath>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Text.Encoding.CodePages, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encoding.CodePages.4.4.0\lib\net461\System.Text.Encoding.CodePages.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Transitions, Version=1.2.0.0, Culture=neutral, processorArchitecture=x86">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\Transitions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\AdditionalInformation.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\AdditionalInformation.Designer.cs">
+      <DependentUpon>AdditionalInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\DistributionListServices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\DistributionListServices.Designer.cs">
+      <DependentUpon>DistributionListServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\ApplicationAccessRequest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\ApplicationAccessRequest.Designer.cs">
+      <DependentUpon>ApplicationAccessRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\GroupEmailAccount.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\GroupEmailAccount.Designer.cs">
+      <DependentUpon>GroupEmailAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\MeetingRoom.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\MeetingRoom.Designer.cs">
+      <DependentUpon>MeetingRoom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\InstallationAccessRequest.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\InstallationAccessRequest.Designer.cs">
+      <DependentUpon>InstallationAccessRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\EmailAccountServices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\EmailAccountServices.Designer.cs">
+      <DependentUpon>EmailAccountServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\EmailSupport.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\EmailSupport.Designer.cs">
+      <DependentUpon>EmailSupport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\pnlSlider.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\pnlSlider.Designer.cs">
+      <DependentUpon>pnlSlider.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Panel\UserAccountServices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\UserAccountServices.Designer.cs">
+      <DependentUpon>UserAccountServices.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubForms\ElevatedAdminRights.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\ElevatedAdminRights.Designer.cs">
+      <DependentUpon>ElevatedAdminRights.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\RemoteAccessCitrix.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\RemoteAccessCitrix.Designer.cs">
+      <DependentUpon>RemoteAccessCitrix.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\SharedFileFolderAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\SharedFileFolderAccess.Designer.cs">
+      <DependentUpon>SharedFileFolderAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\VPNAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\VPNAccess.Designer.cs">
+      <DependentUpon>VPNAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\SoftwareInstallation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\SoftwareInstallation.Designer.cs">
+      <DependentUpon>SoftwareInstallation.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\AdditionalInformation.resx">
+      <DependentUpon>AdditionalInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\DistributionListServices.resx">
+      <DependentUpon>DistributionListServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\ApplicationAccessRequest.resx">
+      <DependentUpon>ApplicationAccessRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\GroupEmailAccount.resx">
+      <DependentUpon>GroupEmailAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\MeetingRoom.resx">
+      <DependentUpon>MeetingRoom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\InstallationAccessRequest.resx">
+      <DependentUpon>InstallationAccessRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\EmailAccountServices.resx">
+      <DependentUpon>EmailAccountServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\EmailSupport.resx">
+      <DependentUpon>EmailSupport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\pnlSlider.resx">
+      <DependentUpon>pnlSlider.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\UserAccountServices.resx">
+      <DependentUpon>UserAccountServices.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\ElevatedAdminRights.resx">
+      <DependentUpon>ElevatedAdminRights.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\RemoteAccessCitrix.resx">
+      <DependentUpon>RemoteAccessCitrix.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\SharedFileFolderAccess.resx">
+      <DependentUpon>SharedFileFolderAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\VPNAccess.resx">
+      <DependentUpon>VPNAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\SoftwareInstallation.resx">
+      <DependentUpon>SoftwareInstallation.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\account1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DXCLogo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SubForms\InstallationAccessRequest\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
