@@ -182,6 +182,12 @@
     <Compile Include="SubForms\InstallationAccessRequest\SoftwareInstallation.Designer.cs">
       <DependentUpon>SoftwareInstallation.cs</DependentUpon>
     </Compile>
+    <Compile Include="SubForms\UserAccountServices\EmployeeNetworkEmailReactivation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\UserAccountServices\EmployeeNetworkEmailReactivation.Designer.cs">
+      <DependentUpon>EmployeeNetworkEmailReactivation.cs</DependentUpon>
+    </Compile>
     <Compile Include="SubForms\UserAccountServices\NetworkAccountSuspension.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -261,6 +267,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="SubForms\InstallationAccessRequest\SoftwareInstallation.resx">
       <DependentUpon>SoftwareInstallation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\UserAccountServices\EmployeeNetworkEmailReactivation.resx">
+      <DependentUpon>EmployeeNetworkEmailReactivation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubForms\UserAccountServices\NetworkAccountSuspension.resx">
       <DependentUpon>NetworkAccountSuspension.cs</DependentUpon>

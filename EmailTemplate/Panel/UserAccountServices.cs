@@ -35,6 +35,13 @@ namespace EmailTemplate.Panel
             em.OpenNetworkAccountSuspension();
 
         }
+
+        private void btnEmployeeNetworkEmailReactivation_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenEmployeeNetworkEmailReactivation();
+        }
+
         //================USER-ACCOUNT-SERVICES==================
 
     }

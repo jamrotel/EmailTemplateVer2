@@ -113,6 +113,11 @@ namespace EmailTemplate
             NetworkAccountSuspension NAS = new NetworkAccountSuspension();
             NAS.Show();
         }
+        public void OpenEmployeeNetworkEmailReactivation()
+        {
+            EmployeeNetworkEmailReactivation ENER = new EmployeeNetworkEmailReactivation();
+            ENER.Show();
+        }
         //================USER-ACCOUNT-SERVICES==================
         //===============Installation-Accss-REQUEST===================
         public void OpenSoftInstallation()

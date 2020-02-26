@@ -86,6 +86,7 @@
             this.btnEmployeeNetworkEmailReactivation.UseCustomBackColor = true;
             this.btnEmployeeNetworkEmailReactivation.UseCustomForeColor = true;
             this.btnEmployeeNetworkEmailReactivation.UseSelectable = true;
+            this.btnEmployeeNetworkEmailReactivation.Click += new System.EventHandler(this.btnEmployeeNetworkEmailReactivation_Click);
             // 
             // btnNetworkAccountBundle
             // 
