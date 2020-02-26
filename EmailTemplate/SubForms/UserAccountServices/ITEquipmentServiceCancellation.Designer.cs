@@ -1,6 +1,6 @@
 ﻿namespace EmailTemplate
 {
-    partial class EmployeeNetworkEmailReactivation
+    partial class ITEquipmentServiceCancellation
     {
         /// <summary>
         /// Required designer variable.
@@ -38,10 +38,6 @@
             this.btnClear = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.txtEmailAddress = new System.Windows.Forms.TextBox();
-            this.txtusername = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.txtPassword = new System.Windows.Forms.TextBox();
-            this.label10 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -60,9 +56,9 @@
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.Location = new System.Drawing.Point(144, 234);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(134, 20);
+            this.label2.Size = new System.Drawing.Size(137, 20);
             this.label2.TabIndex = 1;
-            this.label2.Text = "Recipient\'s Email:";
+            this.label2.Text = "Recipient\'s Name:";
             // 
             // label3
             // 
@@ -104,7 +100,7 @@
             // btnGenerate
             // 
             this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerate.Location = new System.Drawing.Point(427, 336);
+            this.btnGenerate.Location = new System.Drawing.Point(427, 283);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(112, 32);
             this.btnGenerate.TabIndex = 7;
@@ -116,7 +112,7 @@
             // 
             this.btnClear.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(284, 336);
+            this.btnClear.Location = new System.Drawing.Point(284, 283);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(112, 32);
             this.btnClear.TabIndex = 8;
@@ -143,53 +139,11 @@
             this.txtEmailAddress.Size = new System.Drawing.Size(255, 28);
             this.txtEmailAddress.TabIndex = 2;
             // 
-            // txtusername
-            // 
-            this.txtusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtusername.Location = new System.Drawing.Point(284, 268);
-            this.txtusername.Multiline = true;
-            this.txtusername.Name = "txtusername";
-            this.txtusername.Size = new System.Drawing.Size(255, 28);
-            this.txtusername.TabIndex = 16;
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(120, 268);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(158, 20);
-            this.label9.TabIndex = 17;
-            this.label9.Text = "Recipient Username:";
-            // 
-            // txtPassword
-            // 
-            this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(284, 302);
-            this.txtPassword.Multiline = true;
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(255, 28);
-            this.txtPassword.TabIndex = 18;
-            // 
-            // label10
-            // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(125, 302);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(153, 20);
-            this.label10.TabIndex = 19;
-            this.label10.Text = "Recipient Password:";
-            // 
-            // EmployeeNetworkEmailReactivation
+            // ITEquipmentServiceCancellation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 393);
-            this.Controls.Add(this.label10);
-            this.Controls.Add(this.txtPassword);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.txtusername);
+            this.ClientSize = new System.Drawing.Size(624, 340);
             this.Controls.Add(this.txtEmailAddress);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnGenerate);
@@ -201,8 +155,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
-            this.Name = "EmployeeNetworkEmailReactivation";
-            this.Text = "Email | EmployeeNetwork and EmailReactivation.cs";
+            this.Name = "ITEquipmentServiceCancellation";
+            this.Text = "Email | ITEquipment and ServiceCancellation";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -220,9 +174,5 @@
         private System.Windows.Forms.Button btnClear;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtEmailAddress;
-        private System.Windows.Forms.TextBox txtusername;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.TextBox txtPassword;
-        private System.Windows.Forms.Label label10;
     }
 }

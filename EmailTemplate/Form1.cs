@@ -118,6 +118,21 @@ namespace EmailTemplate
             EmployeeNetworkEmailReactivation ENER = new EmployeeNetworkEmailReactivation();
             ENER.Show();
         }
+        public void OpenITEquipmentServiceCancellation()
+        {
+            ITEquipmentServiceCancellation ITSC = new ITEquipmentServiceCancellation();
+            ITSC.Show();
+        }
+        public void OpenChangetoPermanentUser()
+        {
+            ChangetoPermanentUser CTPU = new ChangetoPermanentUser();
+            CTPU.Show();
+        }
+        public void OpenModifyEndDate()
+        {
+            ModifyEndDate MED = new ModifyEndDate();
+            MED.Show();
+        }
         //================USER-ACCOUNT-SERVICES==================
         //===============Installation-Accss-REQUEST===================
         public void OpenSoftInstallation()
