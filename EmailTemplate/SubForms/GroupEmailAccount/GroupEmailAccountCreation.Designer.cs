@@ -181,11 +181,11 @@
             this.label5.TabIndex = 10;
             this.label5.Text = "Computer Name:";
             // 
-            // AudioWebConferencing
+            // GroupEmailAccountCreation
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(673, 393);
+            this.ClientSize = new System.Drawing.Size(595, 359);
             this.Controls.Add(this.txtComputerName);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtRecipientEmail);
@@ -201,8 +201,8 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.MaximizeBox = false;
-            this.Name = "AudioWebConferencing";
-            this.Text = "Email | Audio Web Conferencing";
+            this.Name = "GroupEmailAccountCreation";
+            this.Text = "Group Email Account Creation";
             this.ResumeLayout(false);
             this.PerformLayout();
 
