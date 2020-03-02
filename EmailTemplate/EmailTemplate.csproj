@@ -331,47 +331,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Audio Web Conferencing.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Change to Permanent User.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Elevated Workstation Privileges.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Employee Account and Email Reactivation.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - ITEquipment and ServiceCancellation.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Modify End Date Request.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - MS Lync Account Creation.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Network Account Creation - NoLyncAndSharedDrive.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Network Account Creation - OnlyLync.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Network Account Creation - OnlySharedDrive.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Network Account Creation.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Network Account Only.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Network Account Suspension.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Remote Citrix Access Request.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Shared Drive Access.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - ShareFile Access And Installation.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - Software Installation Request.oft" />
-    <None Include="EmailTemplates\Access\AU-SDXXXX - VPN Remote Access Request.oft" />
-    <None Include="EmailTemplates\Backup\AddAdditionalMailbox.pdf" />
-    <None Include="EmailTemplates\Backup\Add_Additional_Mailbox.pdf" />
-    <None Include="EmailTemplates\Backup\Add_Group_Mailbox.pdf" />
-    <None Include="EmailTemplates\Backup\attachments.7z" />
-    <None Include="EmailTemplates\Backup\How to add Additional mailbox.doc" />
-    <None Include="EmailTemplates\Backup\MapNetworkDrive.docx" />
-    <None Include="EmailTemplates\Backup\MapNetworkDrive.pdf" />
-    <None Include="EmailTemplates\Backup\RequestCitrixAccess.doc" />
-    <None Include="EmailTemplates\Backup\RequestVpnCertificate.doc" />
-    <None Include="EmailTemplates\Backup\RequestVpnCertificate.pdf" />
-    <None Include="EmailTemplates\Backup\RequestVpnCertificate_emailTemplate.doc" />
-    <None Include="EmailTemplates\Backup\ShareFileQuickStart.pdf" />
-    <None Include="EmailTemplates\Backup\Welcome to Downer Group IT-20160728.pdf" />
-    <None Include="EmailTemplates\Backup\Welcome to Downer Group IT-20160728v1.pdf" />
-    <None Include="EmailTemplates\Backup\Welcome to Downer Group IT-20160728_Bakcup.pdf" />
-    <None Include="EmailTemplates\Email Strike\CONFIRMATION – Closed.oft" />
-    <None Include="EmailTemplates\Email Strike\CONFIRMATION – Strike 1.oft" />
-    <None Include="EmailTemplates\Email Strike\CONFIRMATION – Strike 2.oft" />
-    <None Include="EmailTemplates\Email Strike\CONFIRMATION – Strike 3.oft" />
-    <None Include="EmailTemplates\Email Strike\MORE INFO - Strike 1.oft" />
-    <None Include="EmailTemplates\Email Strike\MORE INFO - Strike 2.oft" />
-    <None Include="EmailTemplates\Email Strike\MORE INFO - Strike 3.oft" />
-    <None Include="EmailTemplates\Email Strike\MORE INFO - Strike Closed.oft" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -391,15 +350,6 @@
   <ItemGroup>
     <None Include="Resources\DXCLogo.png" />
   </ItemGroup>
-  <ItemGroup>
-    <Content Include="EmailTemplates\Attachments\Test.txt" />
-    <Content Include="EmailTemplates\Backup\image001.jpg" />
-    <Content Include="EmailTemplates\Backup\image002.png" />
-    <Content Include="EmailTemplates\Backup\PWGen.exe" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="EmailTemplates\Email\" />
-    <Folder Include="EmailTemplates\IT User Account\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
