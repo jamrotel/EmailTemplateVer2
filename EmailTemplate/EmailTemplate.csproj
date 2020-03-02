@@ -331,47 +331,47 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Audio Web Conferencing.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Change to Permanent User.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Elevated Workstation Privileges.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Employee Account and Email Reactivation.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - ITEquipment and ServiceCancellation.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Modify End Date Request.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - MS Lync Account Creation.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Network Account Creation - NoLyncAndSharedDrive.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Network Account Creation - OnlyLync.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Network Account Creation - OnlySharedDrive.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Network Account Creation.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Network Account Only.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Network Account Suspension.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Remote Citrix Access Request.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Shared Drive Access.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - ShareFile Access And Installation.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - Software Installation Request.oft" />
-    <None Include="SubForms\emailTemplates\Access\AU-SDXXXX - VPN Remote Access Request.oft" />
-    <None Include="SubForms\emailTemplates\Backup\AddAdditionalMailbox.pdf" />
-    <None Include="SubForms\emailTemplates\Backup\Add_Additional_Mailbox.pdf" />
-    <None Include="SubForms\emailTemplates\Backup\Add_Group_Mailbox.pdf" />
-    <None Include="SubForms\emailTemplates\Backup\attachments.7z" />
-    <None Include="SubForms\emailTemplates\Backup\How to add Additional mailbox.doc" />
-    <None Include="SubForms\emailTemplates\Backup\MapNetworkDrive.docx" />
-    <None Include="SubForms\emailTemplates\Backup\MapNetworkDrive.pdf" />
-    <None Include="SubForms\emailTemplates\Backup\RequestCitrixAccess.doc" />
-    <None Include="SubForms\emailTemplates\Backup\RequestVpnCertificate.doc" />
-    <None Include="SubForms\emailTemplates\Backup\RequestVpnCertificate.pdf" />
-    <None Include="SubForms\emailTemplates\Backup\RequestVpnCertificate_emailTemplate.doc" />
-    <None Include="SubForms\emailTemplates\Backup\ShareFileQuickStart.pdf" />
-    <None Include="SubForms\emailTemplates\Backup\Welcome to Downer Group IT-20160728.pdf" />
-    <None Include="SubForms\emailTemplates\Backup\Welcome to Downer Group IT-20160728v1.pdf" />
-    <None Include="SubForms\emailTemplates\Backup\Welcome to Downer Group IT-20160728_Bakcup.pdf" />
-    <None Include="SubForms\emailTemplates\Email Strike\CONFIRMATION – Closed.oft" />
-    <None Include="SubForms\emailTemplates\Email Strike\CONFIRMATION – Strike 1.oft" />
-    <None Include="SubForms\emailTemplates\Email Strike\CONFIRMATION – Strike 2.oft" />
-    <None Include="SubForms\emailTemplates\Email Strike\CONFIRMATION – Strike 3.oft" />
-    <None Include="SubForms\emailTemplates\Email Strike\MORE INFO - Strike 1.oft" />
-    <None Include="SubForms\emailTemplates\Email Strike\MORE INFO - Strike 2.oft" />
-    <None Include="SubForms\emailTemplates\Email Strike\MORE INFO - Strike 3.oft" />
-    <None Include="SubForms\emailTemplates\Email Strike\MORE INFO - Strike Closed.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Audio Web Conferencing.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Change to Permanent User.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Elevated Workstation Privileges.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Employee Account and Email Reactivation.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - ITEquipment and ServiceCancellation.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Modify End Date Request.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - MS Lync Account Creation.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Network Account Creation - NoLyncAndSharedDrive.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Network Account Creation - OnlyLync.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Network Account Creation - OnlySharedDrive.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Network Account Creation.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Network Account Only.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Network Account Suspension.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Remote Citrix Access Request.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Shared Drive Access.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - ShareFile Access And Installation.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - Software Installation Request.oft" />
+    <None Include="emailTemplates\Access\AU-SDXXXX - VPN Remote Access Request.oft" />
+    <None Include="emailTemplates\Backup\AddAdditionalMailbox.pdf" />
+    <None Include="emailTemplates\Backup\Add_Additional_Mailbox.pdf" />
+    <None Include="emailTemplates\Backup\Add_Group_Mailbox.pdf" />
+    <None Include="emailTemplates\Backup\attachments.7z" />
+    <None Include="emailTemplates\Backup\How to add Additional mailbox.doc" />
+    <None Include="emailTemplates\Backup\MapNetworkDrive.docx" />
+    <None Include="emailTemplates\Backup\MapNetworkDrive.pdf" />
+    <None Include="emailTemplates\Backup\RequestCitrixAccess.doc" />
+    <None Include="emailTemplates\Backup\RequestVpnCertificate.doc" />
+    <None Include="emailTemplates\Backup\RequestVpnCertificate.pdf" />
+    <None Include="emailTemplates\Backup\RequestVpnCertificate_emailTemplate.doc" />
+    <None Include="emailTemplates\Backup\ShareFileQuickStart.pdf" />
+    <None Include="emailTemplates\Backup\Welcome to Downer Group IT-20160728.pdf" />
+    <None Include="emailTemplates\Backup\Welcome to Downer Group IT-20160728v1.pdf" />
+    <None Include="emailTemplates\Backup\Welcome to Downer Group IT-20160728_Bakcup.pdf" />
+    <None Include="emailTemplates\Email Strike\CONFIRMATION – Closed.oft" />
+    <None Include="emailTemplates\Email Strike\CONFIRMATION – Strike 1.oft" />
+    <None Include="emailTemplates\Email Strike\CONFIRMATION – Strike 2.oft" />
+    <None Include="emailTemplates\Email Strike\CONFIRMATION – Strike 3.oft" />
+    <None Include="emailTemplates\Email Strike\MORE INFO - Strike 1.oft" />
+    <None Include="emailTemplates\Email Strike\MORE INFO - Strike 2.oft" />
+    <None Include="emailTemplates\Email Strike\MORE INFO - Strike 3.oft" />
+    <None Include="emailTemplates\Email Strike\MORE INFO - Strike Closed.oft" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -392,14 +392,14 @@
     <None Include="Resources\DXCLogo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="SubForms\emailTemplates\Attachments\Test.txt" />
-    <Content Include="SubForms\emailTemplates\Backup\image001.jpg" />
-    <Content Include="SubForms\emailTemplates\Backup\image002.png" />
-    <Content Include="SubForms\emailTemplates\Backup\PWGen.exe" />
+    <Content Include="emailTemplates\Attachments\Test.txt" />
+    <Content Include="emailTemplates\Backup\image001.jpg" />
+    <Content Include="emailTemplates\Backup\image002.png" />
+    <Content Include="emailTemplates\Backup\PWGen.exe" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="SubForms\emailTemplates\Email\" />
-    <Folder Include="SubForms\emailTemplates\IT User Account\" />
+    <Folder Include="emailTemplates\Email\" />
+    <Folder Include="emailTemplates\IT User Account\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
