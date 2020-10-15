@@ -87,6 +87,7 @@
             this.Controls.Add(this.metroButton17);
             this.Controls.Add(this.metroButton19);
             this.Name = "DistributionListServices";
+            this.Size = new System.Drawing.Size(590, 480);
             this.Load += new System.EventHandler(this.DistributionListServices_Load);
             this.ResumeLayout(false);
 

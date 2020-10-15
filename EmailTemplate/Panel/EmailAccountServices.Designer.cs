@@ -118,6 +118,7 @@
             this.Controls.Add(this.metroButton13);
             this.Controls.Add(this.metroButton14);
             this.Name = "EmailAccountServices";
+            this.Size = new System.Drawing.Size(590, 480);
             this.ResumeLayout(false);
             this.PerformLayout();
 

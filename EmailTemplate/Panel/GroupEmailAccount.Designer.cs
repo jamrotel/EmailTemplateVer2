@@ -67,6 +67,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.metroButton22);
             this.Name = "GroupEmailAccount";
+            this.Size = new System.Drawing.Size(590, 480);
             this.ResumeLayout(false);
             this.PerformLayout();
 

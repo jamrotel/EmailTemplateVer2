@@ -36,7 +36,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Silver;
             this.Name = "pnlSlider";
-            this.Size = new System.Drawing.Size(862, 917);
+            this.Size = new System.Drawing.Size(590, 480);
             this.UseCustomBackColor = true;
             this.Load += new System.EventHandler(this.pnlSlider_Load);
             this.ResumeLayout(false);

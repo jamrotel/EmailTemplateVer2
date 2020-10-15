@@ -46,7 +46,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(39, 106);
+            this.label1.Location = new System.Drawing.Point(39, 79);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(239, 20);
             this.label1.TabIndex = 0;
@@ -56,7 +56,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(144, 234);
+            this.label2.Location = new System.Drawing.Point(144, 181);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(134, 20);
             this.label2.TabIndex = 1;
@@ -66,7 +66,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(88, 140);
+            this.label3.Location = new System.Drawing.Point(88, 113);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(190, 20);
             this.label3.TabIndex = 2;
@@ -75,7 +75,7 @@
             // txtTicketNumber
             // 
             this.txtTicketNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTicketNumber.Location = new System.Drawing.Point(284, 98);
+            this.txtTicketNumber.Location = new System.Drawing.Point(284, 76);
             this.txtTicketNumber.Multiline = true;
             this.txtTicketNumber.Name = "txtTicketNumber";
             this.txtTicketNumber.Size = new System.Drawing.Size(255, 28);
@@ -84,7 +84,7 @@
             // txtRecipientEmail
             // 
             this.txtRecipientEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRecipientEmail.Location = new System.Drawing.Point(284, 234);
+            this.txtRecipientEmail.Location = new System.Drawing.Point(284, 178);
             this.txtRecipientEmail.Multiline = true;
             this.txtRecipientEmail.Name = "txtRecipientEmail";
             this.txtRecipientEmail.Size = new System.Drawing.Size(255, 28);
@@ -93,7 +93,7 @@
             // txtFirstName
             // 
             this.txtFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFirstName.Location = new System.Drawing.Point(284, 132);
+            this.txtFirstName.Location = new System.Drawing.Point(284, 110);
             this.txtFirstName.Multiline = true;
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(255, 28);
@@ -102,7 +102,7 @@
             // btnGenerate
             // 
             this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerate.Location = new System.Drawing.Point(427, 320);
+            this.btnGenerate.Location = new System.Drawing.Point(427, 246);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(112, 32);
             this.btnGenerate.TabIndex = 7;
@@ -114,7 +114,7 @@
             // 
             this.btnClear.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(284, 320);
+            this.btnClear.Location = new System.Drawing.Point(284, 246);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(112, 32);
             this.btnClear.TabIndex = 8;
@@ -126,7 +126,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(136, 174);
+            this.label4.Location = new System.Drawing.Point(136, 147);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(142, 20);
             this.label4.TabIndex = 3;
@@ -135,7 +135,7 @@
             // txtEmailAddress
             // 
             this.txtEmailAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmailAddress.Location = new System.Drawing.Point(284, 166);
+            this.txtEmailAddress.Location = new System.Drawing.Point(284, 144);
             this.txtEmailAddress.Multiline = true;
             this.txtEmailAddress.Name = "txtEmailAddress";
             this.txtEmailAddress.Size = new System.Drawing.Size(255, 28);
@@ -144,7 +144,7 @@
             // txtFullName
             // 
             this.txtFullName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFullName.Location = new System.Drawing.Point(284, 268);
+            this.txtFullName.Location = new System.Drawing.Point(284, 212);
             this.txtFullName.Multiline = true;
             this.txtFullName.Name = "txtFullName";
             this.txtFullName.Size = new System.Drawing.Size(255, 28);
@@ -154,7 +154,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(120, 268);
+            this.label9.Location = new System.Drawing.Point(123, 215);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(155, 20);
             this.label9.TabIndex = 17;
@@ -164,7 +164,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 377);
+            this.ClientSize = new System.Drawing.Size(562, 294);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtFullName);
             this.Controls.Add(this.txtEmailAddress);

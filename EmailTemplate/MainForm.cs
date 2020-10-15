@@ -176,6 +176,14 @@ namespace EmailTemplate
 
         }
 
+        private void panelAdditionalInformation_Click(object sender, EventArgs e)
+        {
+            AdditionalInformation _AdditionalInformation = new AdditionalInformation(this);
+            _AdditionalInformation.Closed += _EmailSupport_Closed;
+            _AdditionalInformation.Shown += _EmailSupport__Shown;
+            _AdditionalInformation.swipe(true);
+        }
+
         //===============Installation-Accss-REQUEST===================
     }
 

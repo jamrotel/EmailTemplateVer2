@@ -49,7 +49,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(39, 106);
+            this.label1.Location = new System.Drawing.Point(38, 87);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(239, 20);
             this.label1.TabIndex = 0;
@@ -59,7 +59,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(129, 234);
+            this.label2.Location = new System.Drawing.Point(128, 181);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(134, 20);
             this.label2.TabIndex = 1;
@@ -69,7 +69,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(88, 140);
+            this.label3.Location = new System.Drawing.Point(87, 121);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(190, 20);
             this.label3.TabIndex = 2;
@@ -78,7 +78,7 @@
             // txtTicketNumber
             // 
             this.txtTicketNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTicketNumber.Location = new System.Drawing.Point(284, 98);
+            this.txtTicketNumber.Location = new System.Drawing.Point(283, 79);
             this.txtTicketNumber.Multiline = true;
             this.txtTicketNumber.Name = "txtTicketNumber";
             this.txtTicketNumber.Size = new System.Drawing.Size(255, 28);
@@ -87,7 +87,7 @@
             // txtRecipientEmail
             // 
             this.txtRecipientEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRecipientEmail.Location = new System.Drawing.Point(284, 234);
+            this.txtRecipientEmail.Location = new System.Drawing.Point(283, 181);
             this.txtRecipientEmail.Multiline = true;
             this.txtRecipientEmail.Name = "txtRecipientEmail";
             this.txtRecipientEmail.Size = new System.Drawing.Size(255, 28);
@@ -96,7 +96,7 @@
             // txtFirstName
             // 
             this.txtFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFirstName.Location = new System.Drawing.Point(284, 132);
+            this.txtFirstName.Location = new System.Drawing.Point(283, 113);
             this.txtFirstName.Multiline = true;
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(255, 28);
@@ -105,7 +105,7 @@
             // btnGenerate
             // 
             this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerate.Location = new System.Drawing.Point(427, 385);
+            this.btnGenerate.Location = new System.Drawing.Point(426, 332);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(112, 32);
             this.btnGenerate.TabIndex = 7;
@@ -117,7 +117,7 @@
             // 
             this.btnClear.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(284, 385);
+            this.btnClear.Location = new System.Drawing.Point(283, 332);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(112, 32);
             this.btnClear.TabIndex = 8;
@@ -129,7 +129,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(136, 174);
+            this.label4.Location = new System.Drawing.Point(135, 155);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(142, 20);
             this.label4.TabIndex = 3;
@@ -138,7 +138,7 @@
             // txtEmailAddress
             // 
             this.txtEmailAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmailAddress.Location = new System.Drawing.Point(284, 166);
+            this.txtEmailAddress.Location = new System.Drawing.Point(283, 147);
             this.txtEmailAddress.Multiline = true;
             this.txtEmailAddress.Name = "txtEmailAddress";
             this.txtEmailAddress.Size = new System.Drawing.Size(255, 28);
@@ -147,7 +147,7 @@
             // txtFullname
             // 
             this.txtFullname.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFullname.Location = new System.Drawing.Point(284, 268);
+            this.txtFullname.Location = new System.Drawing.Point(283, 215);
             this.txtFullname.Multiline = true;
             this.txtFullname.Name = "txtFullname";
             this.txtFullname.Size = new System.Drawing.Size(255, 28);
@@ -157,7 +157,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(108, 268);
+            this.label9.Location = new System.Drawing.Point(107, 215);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(155, 20);
             this.label9.TabIndex = 17;
@@ -166,7 +166,7 @@
             // txtdate
             // 
             this.txtdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtdate.Location = new System.Drawing.Point(284, 302);
+            this.txtdate.Location = new System.Drawing.Point(283, 249);
             this.txtdate.Name = "txtdate";
             this.txtdate.Size = new System.Drawing.Size(255, 26);
             this.txtdate.TabIndex = 18;
@@ -175,7 +175,7 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(219, 302);
+            this.label5.Location = new System.Drawing.Point(218, 249);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(44, 20);
             this.label5.TabIndex = 19;
@@ -185,7 +185,7 @@
             // 
             this.checkBoxPermanent.AutoSize = true;
             this.checkBoxPermanent.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.checkBoxPermanent.Location = new System.Drawing.Point(284, 343);
+            this.checkBoxPermanent.Location = new System.Drawing.Point(283, 290);
             this.checkBoxPermanent.Name = "checkBoxPermanent";
             this.checkBoxPermanent.Size = new System.Drawing.Size(117, 24);
             this.checkBoxPermanent.TabIndex = 20;
@@ -196,7 +196,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 466);
+            this.ClientSize = new System.Drawing.Size(570, 387);
             this.Controls.Add(this.checkBoxPermanent);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtdate);

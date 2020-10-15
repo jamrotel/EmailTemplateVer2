@@ -29,8 +29,6 @@ namespace EmailTemplate
            
                 mail = application.CreateItemFromTemplate(AppDomain.CurrentDomain.BaseDirectory + @"\EmailTemplates\Access\AU-SDXXXX - Change to Permanent User.oft") as Outlook.MailItem;
           
-            
-          
             mail.HTMLBody = mail.HTMLBody.Replace("RequestorName", ""+txtFirstName.Text+"");
             mail.HTMLBody = mail.HTMLBody.Replace("TicketNumber", "" + txtTicketNumber.Text + "");
             mail.HTMLBody = mail.HTMLBody.Replace("FullnameDetails", ""+ txtFullName.Text+"");

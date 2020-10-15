@@ -58,7 +58,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(108, 234);
+            this.label2.Location = new System.Drawing.Point(108, 200);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(170, 20);
             this.label2.TabIndex = 1;
@@ -86,7 +86,7 @@
             // txtRecipientFirstName
             // 
             this.txtRecipientFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRecipientFirstName.Location = new System.Drawing.Point(284, 234);
+            this.txtRecipientFirstName.Location = new System.Drawing.Point(284, 200);
             this.txtRecipientFirstName.Multiline = true;
             this.txtRecipientFirstName.Name = "txtRecipientFirstName";
             this.txtRecipientFirstName.Size = new System.Drawing.Size(255, 28);
@@ -104,7 +104,7 @@
             // btnGenerate
             // 
             this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerate.Location = new System.Drawing.Point(427, 336);
+            this.btnGenerate.Location = new System.Drawing.Point(427, 302);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(112, 32);
             this.btnGenerate.TabIndex = 7;
@@ -116,7 +116,7 @@
             // 
             this.btnClear.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(284, 336);
+            this.btnClear.Location = new System.Drawing.Point(284, 302);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(112, 32);
             this.btnClear.TabIndex = 8;
@@ -146,7 +146,7 @@
             // txtusername
             // 
             this.txtusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtusername.Location = new System.Drawing.Point(284, 268);
+            this.txtusername.Location = new System.Drawing.Point(284, 234);
             this.txtusername.Multiline = true;
             this.txtusername.Name = "txtusername";
             this.txtusername.Size = new System.Drawing.Size(255, 28);
@@ -156,7 +156,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(120, 268);
+            this.label9.Location = new System.Drawing.Point(120, 234);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(158, 20);
             this.label9.TabIndex = 17;
@@ -166,7 +166,7 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.Location = new System.Drawing.Point(125, 302);
+            this.label10.Location = new System.Drawing.Point(125, 268);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(153, 20);
             this.label10.TabIndex = 19;
@@ -175,7 +175,7 @@
             // txtPassword
             // 
             this.txtPassword.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtPassword.Location = new System.Drawing.Point(284, 302);
+            this.txtPassword.Location = new System.Drawing.Point(284, 268);
             this.txtPassword.Multiline = true;
             this.txtPassword.Name = "txtPassword";
             this.txtPassword.Size = new System.Drawing.Size(255, 28);
@@ -185,7 +185,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(624, 393);
+            this.ClientSize = new System.Drawing.Size(565, 353);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtPassword);
             this.Controls.Add(this.label9);

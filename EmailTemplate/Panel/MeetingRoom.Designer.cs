@@ -84,6 +84,7 @@
             this.Controls.Add(this.metroButton12);
             this.Controls.Add(this.metroButton14);
             this.Name = "MeetingRoom";
+            this.Size = new System.Drawing.Size(590, 480);
             this.ResumeLayout(false);
             this.PerformLayout();
 
