@@ -60,6 +60,11 @@ namespace EmailTemplate.Panel
             em.OpenModifyEndDate();
         }
 
+        private void btnMailContactModify_Click(object sender, EventArgs e)
+        {
+
+        }
+
         //================USER-ACCOUNT-SERVICES==================
 
     }

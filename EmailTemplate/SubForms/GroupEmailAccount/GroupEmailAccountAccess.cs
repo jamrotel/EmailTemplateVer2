@@ -12,26 +12,28 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 
 namespace EmailTemplate
 {
-    public partial class GroupEmailAccountCreation : MetroFramework.Forms.MetroForm
+    public partial class GroupEmailAccountAccess : MetroFramework.Forms.MetroForm
     {
-        public GroupEmailAccountCreation()
+        public GroupEmailAccountAccess()
         {
             InitializeComponent();
         }
 
         private void btnGenerate_Click(object sender, EventArgs e)
         {
-            Outlook.Application application = new Outlook.Application();
-            Outlook.MailItem mail = application.CreateItemFromTemplate(AppDomain.CurrentDomain.BaseDirectory + @"\EmailTemplates\GroupEmailAccount\REQ# - SCTASK Group Email Account Creation Request.oft") as Outlook.MailItem;
            
+            Outlook.Application application = new Outlook.Application();
+            Outlook.MailItem mail = application.CreateItemFromTemplate(AppDomain.CurrentDomain.BaseDirectory + @"\EmailTemplates\GroupEmailAccount\REQ# - SCTASK Group Email Account Access Request.oft") as Outlook.MailItem;
+           
+
+            // GMN = GroupMailboxName ; GME = GroupMailboxEmail 
             mail.HTMLBody = mail.HTMLBody.Replace("RequestorEmail", "" + txtEmailAddress.Text + "");
             mail.HTMLBody = mail.HTMLBody.Replace("RequestorName", ""+txtFirstName.Text+"");
-            mail.HTMLBody = mail.HTMLBody.Replace("GroupMailboxName", "" + txtGroupMailboxName.Text + "");
-            mail.HTMLBody = mail.HTMLBody.Replace("GroupMailboxNameEmail", "" + txtGMBEmail.Text + "");
-            mail.HTMLBody = mail.HTMLBody.Replace("AdminEmail", "" + txtAdmin.Text + "");
-            mail.HTMLBody = mail.HTMLBody.Replace("FullaccessReadOnly", "" + txtReadOnly.Text + "");
-            mail.HTMLBody = mail.HTMLBody.Replace("FullaccessSendAS", "" + txtSendAs.Text + "");
-            //mail.HTMLBody = mail.HTMLBody.Replace("<SendOnBehalf>", "" + txtSendAs.Text + "");
+            mail.HTMLBody = mail.HTMLBody.Replace("GMN", "" + txtGroupMailboxName.Text + "");
+            mail.HTMLBody = mail.HTMLBody.Replace("GME", "" + txtGMBEmail.Text + "");
+            //mail.HTMLBody = mail.HTMLBody.Replace("", "" + txtReadOnly.Text + "");
+            //mail.HTMLBody = mail.HTMLBody.Replace("", "" + txtSendAs.Text + "");
+            mail.HTMLBody = mail.HTMLBody.Replace("DSOB", "" + txtSendOnBehalf.Text + "");
 
             //---  update subj: <REQ#> and <SCTASK> -- //
             mail.HTMLBody = mail.HTMLBody.Replace("REQ#", "" + txtReq.Text + "");
@@ -39,7 +41,7 @@ namespace EmailTemplate
 
             //-- update TO / CC / Subj -- //
             mail.To = txtEmailAddress.Text;
-            mail.Subject = txtReq.Text + " "  + txtSCTask.Text  + " Group Email Account Creation Request ";
+            mail.Subject = txtReq.Text + " - "  + txtSCTask.Text  + " Group Email Account Creation Request ";
             //mail.CC = txt.Text;
 
             //mail.Attachments.Add(AppDomain.CurrentDomain.BaseDirectory + @"\EmailTemplates\Attachments\Test.txt");
@@ -59,7 +61,6 @@ namespace EmailTemplate
             txtEmailAddress.Clear();
             txtGroupMailboxName.Clear();
             txtGMBEmail.Clear();
-            txtAdmin.Clear();
             txtReadOnly.Clear();
             txtSendAs.Clear();
             txtSendOnBehalf.Clear();

@@ -46,7 +46,7 @@
             this.btnNetworkAccountOnly.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnNetworkAccountOnly.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btnNetworkAccountOnly.ForeColor = System.Drawing.Color.White;
-            this.btnNetworkAccountOnly.Location = new System.Drawing.Point(121, 168);
+            this.btnNetworkAccountOnly.Location = new System.Drawing.Point(150, 127);
             this.btnNetworkAccountOnly.Name = "btnNetworkAccountOnly";
             this.btnNetworkAccountOnly.Size = new System.Drawing.Size(160, 43);
             this.btnNetworkAccountOnly.TabIndex = 16;
@@ -61,7 +61,7 @@
             this.btnChangePermanentUser.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnChangePermanentUser.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btnChangePermanentUser.ForeColor = System.Drawing.Color.White;
-            this.btnChangePermanentUser.Location = new System.Drawing.Point(121, 315);
+            this.btnChangePermanentUser.Location = new System.Drawing.Point(316, 78);
             this.btnChangePermanentUser.Name = "btnChangePermanentUser";
             this.btnChangePermanentUser.Size = new System.Drawing.Size(160, 43);
             this.btnChangePermanentUser.TabIndex = 15;
@@ -76,7 +76,7 @@
             this.btnEmployeeNetworkEmailReactivation.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnEmployeeNetworkEmailReactivation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btnEmployeeNetworkEmailReactivation.ForeColor = System.Drawing.Color.White;
-            this.btnEmployeeNetworkEmailReactivation.Location = new System.Drawing.Point(287, 266);
+            this.btnEmployeeNetworkEmailReactivation.Location = new System.Drawing.Point(150, 225);
             this.btnEmployeeNetworkEmailReactivation.Name = "btnEmployeeNetworkEmailReactivation";
             this.btnEmployeeNetworkEmailReactivation.Size = new System.Drawing.Size(160, 43);
             this.btnEmployeeNetworkEmailReactivation.TabIndex = 13;
@@ -91,7 +91,7 @@
             this.btnNetworkAccountBundle.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnNetworkAccountBundle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btnNetworkAccountBundle.ForeColor = System.Drawing.Color.White;
-            this.btnNetworkAccountBundle.Location = new System.Drawing.Point(121, 119);
+            this.btnNetworkAccountBundle.Location = new System.Drawing.Point(150, 78);
             this.btnNetworkAccountBundle.Name = "btnNetworkAccountBundle";
             this.btnNetworkAccountBundle.Size = new System.Drawing.Size(160, 43);
             this.btnNetworkAccountBundle.TabIndex = 14;
@@ -106,7 +106,7 @@
             this.btnServiceCancellation.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnServiceCancellation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btnServiceCancellation.ForeColor = System.Drawing.Color.White;
-            this.btnServiceCancellation.Location = new System.Drawing.Point(121, 217);
+            this.btnServiceCancellation.Location = new System.Drawing.Point(150, 274);
             this.btnServiceCancellation.Name = "btnServiceCancellation";
             this.btnServiceCancellation.Size = new System.Drawing.Size(160, 43);
             this.btnServiceCancellation.TabIndex = 20;
@@ -121,7 +121,7 @@
             this.btnMailContactCreation.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnMailContactCreation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btnMailContactCreation.ForeColor = System.Drawing.Color.White;
-            this.btnMailContactCreation.Location = new System.Drawing.Point(287, 315);
+            this.btnMailContactCreation.Location = new System.Drawing.Point(316, 176);
             this.btnMailContactCreation.Name = "btnMailContactCreation";
             this.btnMailContactCreation.Size = new System.Drawing.Size(160, 43);
             this.btnMailContactCreation.TabIndex = 19;
@@ -135,7 +135,7 @@
             this.btnModifyEndDate.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnModifyEndDate.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btnModifyEndDate.ForeColor = System.Drawing.Color.White;
-            this.btnModifyEndDate.Location = new System.Drawing.Point(287, 168);
+            this.btnModifyEndDate.Location = new System.Drawing.Point(316, 127);
             this.btnModifyEndDate.Name = "btnModifyEndDate";
             this.btnModifyEndDate.Size = new System.Drawing.Size(160, 43);
             this.btnModifyEndDate.TabIndex = 17;
@@ -150,7 +150,7 @@
             this.btnNetworkAccountSuspension.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnNetworkAccountSuspension.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btnNetworkAccountSuspension.ForeColor = System.Drawing.Color.White;
-            this.btnNetworkAccountSuspension.Location = new System.Drawing.Point(287, 119);
+            this.btnNetworkAccountSuspension.Location = new System.Drawing.Point(150, 176);
             this.btnNetworkAccountSuspension.Name = "btnNetworkAccountSuspension";
             this.btnNetworkAccountSuspension.Size = new System.Drawing.Size(160, 43);
             this.btnNetworkAccountSuspension.TabIndex = 18;
@@ -165,7 +165,7 @@
             this.btnMailContactDeletion.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnMailContactDeletion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btnMailContactDeletion.ForeColor = System.Drawing.Color.White;
-            this.btnMailContactDeletion.Location = new System.Drawing.Point(287, 217);
+            this.btnMailContactDeletion.Location = new System.Drawing.Point(316, 274);
             this.btnMailContactDeletion.Name = "btnMailContactDeletion";
             this.btnMailContactDeletion.Size = new System.Drawing.Size(160, 43);
             this.btnMailContactDeletion.TabIndex = 22;
@@ -179,7 +179,7 @@
             this.btnMailContactModify.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnMailContactModify.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
             this.btnMailContactModify.ForeColor = System.Drawing.Color.White;
-            this.btnMailContactModify.Location = new System.Drawing.Point(121, 266);
+            this.btnMailContactModify.Location = new System.Drawing.Point(316, 225);
             this.btnMailContactModify.Name = "btnMailContactModify";
             this.btnMailContactModify.Size = new System.Drawing.Size(160, 43);
             this.btnMailContactModify.TabIndex = 21;
@@ -187,15 +187,16 @@
             this.btnMailContactModify.UseCustomBackColor = true;
             this.btnMailContactModify.UseCustomForeColor = true;
             this.btnMailContactModify.UseSelectable = true;
+            this.btnMailContactModify.Click += new System.EventHandler(this.btnMailContactModify_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.label1.Location = new System.Drawing.Point(37, 18);
+            this.label1.Location = new System.Drawing.Point(33, 18);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(399, 31);
+            this.label1.Size = new System.Drawing.Size(311, 25);
             this.label1.TabIndex = 23;
             this.label1.Text = "USER ACCOUNT SERVICES";
             // 
@@ -216,7 +217,7 @@
             this.Controls.Add(this.btnEmployeeNetworkEmailReactivation);
             this.Controls.Add(this.btnNetworkAccountBundle);
             this.Name = "UserAccountServices";
-            this.Size = new System.Drawing.Size(590, 480);
+            this.Size = new System.Drawing.Size(590, 351);
             this.ResumeLayout(false);
             this.PerformLayout();
 

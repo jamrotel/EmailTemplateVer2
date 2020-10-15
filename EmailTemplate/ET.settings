@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EmailTemplate" GeneratedClassName="ET">
+  <Profiles />
+  <Settings>
+    <Setting Name="Author" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Jamille Rotel and Lorenzo Rodriguez</Value>
+    </Setting>
+    <Setting Name="Date" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2020</Value>
+    </Setting>
+    <Setting Name="VersionBuild" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="EmailAddress" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">jamille-john.r.rotel@dxc.com / lorenzo-enrico.her.rodriguez@dxc.com</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

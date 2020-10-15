@@ -133,6 +133,7 @@ namespace EmailTemplate
             ModifyEndDate MED = new ModifyEndDate();
             MED.Show();
         }
+
         //================USER-ACCOUNT-SERVICES==================
         //===============Installation-Accss-REQUEST===================
         public void OpenSoftInstallation()
@@ -184,7 +185,29 @@ namespace EmailTemplate
             _AdditionalInformation.swipe(true);
         }
 
-        //===============Installation-Accss-REQUEST===================
+        private void panelAbout_Click(object sender, EventArgs e)
+        {
+            About about = new About();
+            about.ShowDialog();
+        }
+
+        //=============== Group Email Account =================== //
+        public void OpenGroupEmailAccountCreation()
+        {
+            GroupEmailAccountCreation GEAC = new GroupEmailAccountCreation();
+            GEAC.Show();
+        }
+        public void OpenGroupEmailAccountAccess()
+        {
+            GroupEmailAccountAccess GEAA = new GroupEmailAccountAccess();
+            GEAA.Show();
+        }
+        public void OpenGroupEmailAccountModification()
+        {
+            GroupEmailAccountModification GEAM = new GroupEmailAccountModification();
+            GEAM.Show();
+        }
+        // About Form
     }
 
 }

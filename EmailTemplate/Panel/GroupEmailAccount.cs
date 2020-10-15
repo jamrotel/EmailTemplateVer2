@@ -17,6 +17,22 @@ namespace EmailTemplate.Panel
             InitializeComponent();
         }
 
-        
+        private void btnGroupEmailAccountCreation_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenGroupEmailAccountCreation();
+        }
+
+        private void btnGroupEmailAccountAccess_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenGroupEmailAccountAccess();
+        }
+
+        private void btnGroupEmailAccountModification_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenGroupEmailAccountModification();
+        }
     }
 }
