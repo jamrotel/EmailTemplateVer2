@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
             this.metroSetLabel5 = new MetroSet_UI.Controls.MetroSetLabel();
             this.lblDate = new MetroSet_UI.Controls.MetroSetLabel();
             this.metroSetLabel4 = new MetroSet_UI.Controls.MetroSetLabel();
@@ -148,6 +149,7 @@
             this.Controls.Add(this.metroSetLabel3);
             this.Controls.Add(this.lblAuthor);
             this.Controls.Add(this.metroSetLabel1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "About";
             this.Text = "About";
             this.ResumeLayout(false);

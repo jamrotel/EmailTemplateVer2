@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29326.143
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmailTemplate", "EmailTemplate\EmailTemplate.csproj", "{9F07F777-DB1C-494D-8776-49F4B8F08D5E}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "EmailTemplate_Setup", "EmailTemplate_Setup\EmailTemplate_Setup.vdproj", "{54AE506F-FF79-4584-94D5-3BFADE48F3B6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{9F07F777-DB1C-494D-8776-49F4B8F08D5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9F07F777-DB1C-494D-8776-49F4B8F08D5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9F07F777-DB1C-494D-8776-49F4B8F08D5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54AE506F-FF79-4584-94D5-3BFADE48F3B6}.Debug|Any CPU.ActiveCfg = Debug
+		{54AE506F-FF79-4584-94D5-3BFADE48F3B6}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -34,5 +34,11 @@ namespace EmailTemplate.Panel
             EmailTemplate em = new EmailTemplate();
             em.OpenGroupEmailAccountModification();
         }
+
+        private void btnGroupEmailAccountDeletion_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenGroupEmailAccountDeletion();
+        }
     }
 }

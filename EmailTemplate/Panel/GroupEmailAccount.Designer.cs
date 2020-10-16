@@ -105,6 +105,7 @@
             this.btnGroupEmailAccountDeletion.UseCustomBackColor = true;
             this.btnGroupEmailAccountDeletion.UseCustomForeColor = true;
             this.btnGroupEmailAccountDeletion.UseSelectable = true;
+            this.btnGroupEmailAccountDeletion.Click += new System.EventHandler(this.btnGroupEmailAccountDeletion_Click);
             // 
             // GroupEmailAccount
             // 

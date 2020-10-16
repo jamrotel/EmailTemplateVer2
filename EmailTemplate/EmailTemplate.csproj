@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>open-email.ico</ApplicationIcon>
+    <ApplicationIcon>email.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
@@ -159,6 +159,12 @@
       <AutoGen>True</AutoGen>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>ET.settings</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\GroupEmailAccount\GroupEmailAccountDeletion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\GroupEmailAccount\GroupEmailAccountDeletion.Designer.cs">
+      <DependentUpon>GroupEmailAccountDeletion.cs</DependentUpon>
     </Compile>
     <Compile Include="SubForms\GroupEmailAccount\GroupEmailAccountModification.cs">
       <SubType>Form</SubType>
@@ -309,6 +315,9 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\GroupEmailAccount\GroupEmailAccountDeletion.resx">
+      <DependentUpon>GroupEmailAccountDeletion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SubForms\GroupEmailAccount\GroupEmailAccountModification.resx">
       <DependentUpon>GroupEmailAccountModification.cs</DependentUpon>
     </EmbeddedResource>
@@ -363,6 +372,10 @@
     <EmbeddedResource Include="SubForms\UserAccountServices\NetworkAccountBundle.resx">
       <DependentUpon>NetworkAccountBundle.cs</DependentUpon>
     </EmbeddedResource>
+    <Content Include="email.ico" />
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

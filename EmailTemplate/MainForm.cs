@@ -1,4 +1,4 @@
-﻿using MetroFramework;
+﻿ using MetroFramework;
 using EmailTemplate.Panel;
 using System;
 using System.Collections.Generic;
@@ -9,16 +9,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Outlook = Microsoft.Office.Interop.Outlook;
+using NLog;
 
 namespace EmailTemplate
 {
-
     public partial class EmailTemplate : MetroFramework.Forms.MetroForm
     {
+        private static Logger logger = LogManager.GetCurrentClassLogger();
         public EmailTemplate()
         {
-            InitializeComponent();
-          
+            try {
+                InitializeComponent();
+            }
+            catch (Exception ex) {
+                logger.Debug("Debug:", ex.ToString());
+            }
         }
         //======================user account creation- pannel variable ============================
         void _pnlone_Shown(object sender, EventArgs e)
@@ -206,6 +211,11 @@ namespace EmailTemplate
         {
             GroupEmailAccountModification GEAM = new GroupEmailAccountModification();
             GEAM.Show();
+        }
+        public void OpenGroupEmailAccountDeletion()
+        {
+            GroupEmailAccountDeletion GEAD = new GroupEmailAccountDeletion();
+            GEAD.Show();
         }
         // About Form
     }
