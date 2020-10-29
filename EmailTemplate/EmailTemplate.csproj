@@ -166,6 +166,12 @@
     <Compile Include="SubForms\DistributionListServices\CreateDistributionList.Designer.cs">
       <DependentUpon>CreateDistributionList.cs</DependentUpon>
     </Compile>
+    <Compile Include="SubForms\DistributionListServices\TestForm1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\DistributionListServices\TestForm1.Designer.cs">
+      <DependentUpon>TestForm1.cs</DependentUpon>
+    </Compile>
     <Compile Include="SubForms\GroupEmailAccount\GroupEmailAccountDeletion.cs">
       <SubType>Form</SubType>
     </Compile>
