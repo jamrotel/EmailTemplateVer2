@@ -24,5 +24,11 @@ namespace EmailTemplate.Panel
         {
 
         }
+
+        private void btnCreateDL_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenDistributionListCreation();
+        }
     }
 }

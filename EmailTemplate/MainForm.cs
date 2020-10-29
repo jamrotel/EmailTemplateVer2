@@ -217,6 +217,14 @@ namespace EmailTemplate
             GroupEmailAccountDeletion GEAD = new GroupEmailAccountDeletion();
             GEAD.Show();
         }
+
+        // ---- Distribution List Services ----- //
+        public void OpenDistributionListCreation()
+        {
+            CreateDistributionList CDL = new CreateDistributionList();
+            CDL.Show();
+        }
+
         // About Form
     }
 

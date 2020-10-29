@@ -30,18 +30,17 @@
         {
             this.metroButton18 = new MetroFramework.Controls.MetroButton();
             this.metroButton17 = new MetroFramework.Controls.MetroButton();
-            this.metroButton19 = new MetroFramework.Controls.MetroButton();
+            this.btnCreateDL = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
             // metroButton18
             // 
             this.metroButton18.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton18.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.metroButton18.ForeColor = System.Drawing.Color.White;
-            this.metroButton18.Location = new System.Drawing.Point(173, 231);
+            this.metroButton18.Location = new System.Drawing.Point(207, 195);
             this.metroButton18.Name = "metroButton18";
-            this.metroButton18.Size = new System.Drawing.Size(250, 100);
+            this.metroButton18.Size = new System.Drawing.Size(204, 52);
             this.metroButton18.TabIndex = 22;
             this.metroButton18.Text = "Modify Distribution List";
             this.metroButton18.UseCustomBackColor = true;
@@ -52,31 +51,30 @@
             // 
             this.metroButton17.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton17.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.metroButton17.ForeColor = System.Drawing.Color.White;
-            this.metroButton17.Location = new System.Drawing.Point(173, 342);
+            this.metroButton17.Location = new System.Drawing.Point(207, 253);
             this.metroButton17.Name = "metroButton17";
-            this.metroButton17.Size = new System.Drawing.Size(250, 100);
+            this.metroButton17.Size = new System.Drawing.Size(204, 52);
             this.metroButton17.TabIndex = 23;
             this.metroButton17.Text = "Delete Distribution List";
             this.metroButton17.UseCustomBackColor = true;
             this.metroButton17.UseCustomForeColor = true;
             this.metroButton17.UseSelectable = true;
             // 
-            // metroButton19
+            // btnCreateDL
             // 
-            this.metroButton19.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.metroButton19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton19.FontSize = MetroFramework.MetroButtonSize.Tall;
-            this.metroButton19.ForeColor = System.Drawing.Color.White;
-            this.metroButton19.Location = new System.Drawing.Point(172, 121);
-            this.metroButton19.Name = "metroButton19";
-            this.metroButton19.Size = new System.Drawing.Size(250, 100);
-            this.metroButton19.TabIndex = 21;
-            this.metroButton19.Text = "Create Group \r\nDistribution List";
-            this.metroButton19.UseCustomBackColor = true;
-            this.metroButton19.UseCustomForeColor = true;
-            this.metroButton19.UseSelectable = true;
+            this.btnCreateDL.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnCreateDL.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.btnCreateDL.ForeColor = System.Drawing.Color.White;
+            this.btnCreateDL.Location = new System.Drawing.Point(207, 137);
+            this.btnCreateDL.Name = "btnCreateDL";
+            this.btnCreateDL.Size = new System.Drawing.Size(204, 52);
+            this.btnCreateDL.TabIndex = 21;
+            this.btnCreateDL.Text = "Create Group \r\nDistribution List";
+            this.btnCreateDL.UseCustomBackColor = true;
+            this.btnCreateDL.UseCustomForeColor = true;
+            this.btnCreateDL.UseSelectable = true;
+            this.btnCreateDL.Click += new System.EventHandler(this.btnCreateDL_Click);
             // 
             // DistributionListServices
             // 
@@ -85,7 +83,7 @@
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.Controls.Add(this.metroButton18);
             this.Controls.Add(this.metroButton17);
-            this.Controls.Add(this.metroButton19);
+            this.Controls.Add(this.btnCreateDL);
             this.Name = "DistributionListServices";
             this.Size = new System.Drawing.Size(590, 480);
             this.Load += new System.EventHandler(this.DistributionListServices_Load);
@@ -97,6 +95,6 @@
 
         private MetroFramework.Controls.MetroButton metroButton18;
         private MetroFramework.Controls.MetroButton metroButton17;
-        private MetroFramework.Controls.MetroButton metroButton19;
+        private MetroFramework.Controls.MetroButton btnCreateDL;
     }
 }

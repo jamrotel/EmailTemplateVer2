@@ -56,7 +56,7 @@ namespace EmailTemplate
             
           
             mail.HTMLBody = mail.HTMLBody.Replace("RequestorName", ""+txtFirstName.Text+"");
-            mail.HTMLBody = mail.HTMLBody.Replace("TicketNumber", "" + txtTicketNumber.Text + "");
+            mail.HTMLBody = mail.HTMLBody.Replace("TicketNumber", "" + txtReqNumber.Text + "");
             mail.HTMLBody = mail.HTMLBody.Replace("RecipientEmail", "" + txtRecipientEmail.Text + "");
             mail.HTMLBody = mail.HTMLBody.Replace("UsernameDetails", ""+ txtusername.Text+"");
             mail.HTMLBody = mail.HTMLBody.Replace("PasswordDetails", "" + txtPassword.Text + "");
@@ -65,7 +65,7 @@ namespace EmailTemplate
             
             mail.To = txtEmailAddress.Text;
             mail.CC = txtRecipientEmail.Text;
-            mail.Subject = txtTicketNumber.Text.ToString() + "- Network Account Creation";
+            mail.Subject = txtReqNumber.Text.ToString() + "- Network Account Creation";
             //mail.Attachments.Add(AppDomain.CurrentDomain.BaseDirectory + @"\EmailTemplates\Attachments\Test.txt");
             mail.Display(false);
         }
@@ -91,7 +91,7 @@ namespace EmailTemplate
             txtEmailAddress.Text = "";
             txtRecipientFirstName.Clear();
             txtFirstName.Clear();
-            txtTicketNumber.Clear();
+            txtReqNumber.Clear();
             txtLyncAccess.Clear();
             txtusername.Clear();
             txtFolderPath.Clear();

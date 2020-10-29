@@ -160,6 +160,12 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>ET.settings</DependentUpon>
     </Compile>
+    <Compile Include="SubForms\DistributionListServices\CreateDistributionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\DistributionListServices\CreateDistributionList.Designer.cs">
+      <DependentUpon>CreateDistributionList.cs</DependentUpon>
+    </Compile>
     <Compile Include="SubForms\GroupEmailAccount\GroupEmailAccountDeletion.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -314,6 +320,9 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\DistributionListServices\CreateDistributionList.resx">
+      <DependentUpon>CreateDistributionList.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubForms\GroupEmailAccount\GroupEmailAccountDeletion.resx">
       <DependentUpon>GroupEmailAccountDeletion.cs</DependentUpon>

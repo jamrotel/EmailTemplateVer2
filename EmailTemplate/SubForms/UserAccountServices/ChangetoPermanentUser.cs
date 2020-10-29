@@ -18,8 +18,6 @@ namespace EmailTemplate
         public ChangetoPermanentUser()
         {
             InitializeComponent();
-
-         
         }
 
         //========================================================================================
@@ -44,7 +42,6 @@ namespace EmailTemplate
         private void btnClear_Click(object sender, EventArgs e)
         {
             ClearText();
-
            
         }
 
