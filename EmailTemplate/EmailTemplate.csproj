@@ -428,5 +428,11 @@
     <Content Include="Resources\about.png" />
     <Content Include="Resources\open-email.png" />
   </ItemGroup>
+  <ItemGroup>
+    <Folder Include="SubForms\EmailAccountServices\" />
+    <Folder Include="SubForms\EmailSupport\" />
+    <Folder Include="SubForms\MeetingRoom\" />
+    <Folder Include="SubForms\SystemAccountServices\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

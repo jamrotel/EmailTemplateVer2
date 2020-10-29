@@ -32,8 +32,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(EmailTemplate));
             this.msmMain = new MetroFramework.Components.MetroStyleManager(this.components);
             this.panelAbout = new MetroFramework.Controls.MetroPanel();
-            this.panelAdditionalInformation = new MetroFramework.Controls.MetroPanel();
-            this.metroLabel9 = new MetroFramework.Controls.MetroLabel();
             this.metroPanel1 = new MetroFramework.Controls.MetroPanel();
             this.metroLabel8 = new MetroFramework.Controls.MetroLabel();
             this.panelMeetingRoom = new MetroFramework.Controls.MetroPanel();
@@ -51,7 +49,6 @@
             this.panelAccess = new MetroFramework.Controls.MetroPanel();
             this.metroLabel2 = new MetroFramework.Controls.MetroLabel();
             ((System.ComponentModel.ISupportInitialize)(this.msmMain)).BeginInit();
-            this.panelAdditionalInformation.SuspendLayout();
             this.metroPanel1.SuspendLayout();
             this.panelMeetingRoom.SuspendLayout();
             this.panelDistributionListServices.SuspendLayout();
@@ -86,41 +83,6 @@
             this.panelAbout.VerticalScrollbarSize = 10;
             this.panelAbout.Click += new System.EventHandler(this.panelAbout_Click);
             // 
-            // panelAdditionalInformation
-            // 
-            this.panelAdditionalInformation.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panelAdditionalInformation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(52)))), ((int)(((byte)(73)))), ((int)(((byte)(94)))));
-            this.panelAdditionalInformation.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panelAdditionalInformation.BackgroundImage")));
-            this.panelAdditionalInformation.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.panelAdditionalInformation.Controls.Add(this.metroLabel9);
-            this.panelAdditionalInformation.HorizontalScrollbarBarColor = true;
-            this.panelAdditionalInformation.HorizontalScrollbarHighlightOnWheel = false;
-            this.panelAdditionalInformation.HorizontalScrollbarSize = 10;
-            this.panelAdditionalInformation.Location = new System.Drawing.Point(391, 306);
-            this.panelAdditionalInformation.Name = "panelAdditionalInformation";
-            this.panelAdditionalInformation.Size = new System.Drawing.Size(178, 113);
-            this.panelAdditionalInformation.TabIndex = 10;
-            this.panelAdditionalInformation.UseCustomBackColor = true;
-            this.panelAdditionalInformation.VerticalScrollbarBarColor = true;
-            this.panelAdditionalInformation.VerticalScrollbarHighlightOnWheel = false;
-            this.panelAdditionalInformation.VerticalScrollbarSize = 10;
-            this.panelAdditionalInformation.Click += new System.EventHandler(this.panelAdditionalInformation_Click);
-            // 
-            // metroLabel9
-            // 
-            this.metroLabel9.AutoSize = true;
-            this.metroLabel9.BackColor = System.Drawing.Color.Transparent;
-            this.metroLabel9.FontSize = MetroFramework.MetroLabelSize.Small;
-            this.metroLabel9.FontWeight = MetroFramework.MetroLabelWeight.Bold;
-            this.metroLabel9.ForeColor = System.Drawing.Color.White;
-            this.metroLabel9.Location = new System.Drawing.Point(24, 12);
-            this.metroLabel9.Name = "metroLabel9";
-            this.metroLabel9.Size = new System.Drawing.Size(132, 15);
-            this.metroLabel9.TabIndex = 3;
-            this.metroLabel9.Text = "Additional information";
-            this.metroLabel9.UseCustomBackColor = true;
-            this.metroLabel9.UseCustomForeColor = true;
-            // 
             // metroPanel1
             // 
             this.metroPanel1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
@@ -131,7 +93,7 @@
             this.metroPanel1.HorizontalScrollbarBarColor = true;
             this.metroPanel1.HorizontalScrollbarHighlightOnWheel = false;
             this.metroPanel1.HorizontalScrollbarSize = 10;
-            this.metroPanel1.Location = new System.Drawing.Point(207, 306);
+            this.metroPanel1.Location = new System.Drawing.Point(23, 306);
             this.metroPanel1.Name = "metroPanel1";
             this.metroPanel1.Size = new System.Drawing.Size(178, 113);
             this.metroPanel1.TabIndex = 8;
@@ -235,7 +197,7 @@
             this.panelEmailSupport.HorizontalScrollbarBarColor = true;
             this.panelEmailSupport.HorizontalScrollbarHighlightOnWheel = false;
             this.panelEmailSupport.HorizontalScrollbarSize = 10;
-            this.panelEmailSupport.Location = new System.Drawing.Point(23, 306);
+            this.panelEmailSupport.Location = new System.Drawing.Point(207, 306);
             this.panelEmailSupport.Name = "panelEmailSupport";
             this.panelEmailSupport.Size = new System.Drawing.Size(178, 113);
             this.panelEmailSupport.TabIndex = 7;
@@ -405,7 +367,6 @@
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(592, 456);
             this.Controls.Add(this.panelAbout);
-            this.Controls.Add(this.panelAdditionalInformation);
             this.Controls.Add(this.metroPanel1);
             this.Controls.Add(this.panelMeetingRoom);
             this.Controls.Add(this.panelDistributionListServices);
@@ -420,8 +381,6 @@
             this.Resizable = false;
             this.Text = "Email Template";
             ((System.ComponentModel.ISupportInitialize)(this.msmMain)).EndInit();
-            this.panelAdditionalInformation.ResumeLayout(false);
-            this.panelAdditionalInformation.PerformLayout();
             this.metroPanel1.ResumeLayout(false);
             this.metroPanel1.PerformLayout();
             this.panelMeetingRoom.ResumeLayout(false);
@@ -458,8 +417,6 @@
         private MetroFramework.Controls.MetroLabel metroLabel7;
         private MetroFramework.Controls.MetroPanel panelDistributionListServices;
         private MetroFramework.Controls.MetroLabel metroLabel6;
-        private MetroFramework.Controls.MetroPanel panelAdditionalInformation;
-        private MetroFramework.Controls.MetroLabel metroLabel9;
         private MetroFramework.Controls.MetroPanel metroPanel1;
         private MetroFramework.Controls.MetroLabel metroLabel8;
         private MetroFramework.Controls.MetroPanel panelAbout;
