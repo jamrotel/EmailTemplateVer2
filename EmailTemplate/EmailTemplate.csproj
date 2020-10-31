@@ -155,11 +155,83 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SubForms\DistributionListServices\DistributionListAccess.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\DistributionListServices\DistributionListAccess.Designer.cs">
+      <DependentUpon>DistributionListAccess.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\DistributionListServices\DeleteDisitributionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\DistributionListServices\DeleteDisitributionList.Designer.cs">
+      <DependentUpon>DeleteDisitributionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\DistributionListServices\ModifyDistributionList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\DistributionListServices\ModifyDistributionList.Designer.cs">
+      <DependentUpon>ModifyDistributionList.cs</DependentUpon>
+    </Compile>
     <Compile Include="SubForms\DistributionListServices\CreateDistributionList.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="SubForms\DistributionListServices\CreateDistributionList.Designer.cs">
       <DependentUpon>CreateDistributionList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\EmailAccountServices\AccessToAnotherUserCalendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\EmailAccountServices\AccessToAnotherUserCalendar.Designer.cs">
+      <DependentUpon>AccessToAnotherUserCalendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\EmailAccountServices\DisableExistingEmailAccount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\EmailAccountServices\DisableExistingEmailAccount.Designer.cs">
+      <DependentUpon>DisableExistingEmailAccount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\EmailAccountServices\EmailAccountCreation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\EmailAccountServices\EmailAccountCreation.Designer.cs">
+      <DependentUpon>EmailAccountCreation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\EmailAccountServices\EmailAlias.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\EmailAccountServices\EmailAlias.Designer.cs">
+      <DependentUpon>EmailAlias.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\EmailAccountServices\EmailDelegates.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\EmailAccountServices\EmailDelegates.Designer.cs">
+      <DependentUpon>EmailDelegates.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\EmailSupport\GenericAccountCreation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\EmailSupport\GenericAccountCreation.Designer.cs">
+      <DependentUpon>GenericAccountCreation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\UserAccountServices\MailContactModification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\UserAccountServices\MailContactModification.Designer.cs">
+      <DependentUpon>MailContactModification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\UserAccountServices\MailContactDeletion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\UserAccountServices\MailContactDeletion.Designer.cs">
+      <DependentUpon>MailContactDeletion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\UserAccountServices\MailContactCreation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\UserAccountServices\MailContactCreation.Designer.cs">
+      <DependentUpon>MailContactCreation.cs</DependentUpon>
     </Compile>
     <Compile Include="SubForms\GroupEmailAccount\GroupEmailAccountDeletion.cs">
       <SubType>Form</SubType>
@@ -325,8 +397,44 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\DistributionListServices\DistributionListAccess.resx">
+      <DependentUpon>DistributionListAccess.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\DistributionListServices\DeleteDisitributionList.resx">
+      <DependentUpon>DeleteDisitributionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\DistributionListServices\ModifyDistributionList.resx">
+      <DependentUpon>ModifyDistributionList.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="SubForms\DistributionListServices\CreateDistributionList.resx">
       <DependentUpon>CreateDistributionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\EmailAccountServices\AccessToAnotherUserCalendar.resx">
+      <DependentUpon>AccessToAnotherUserCalendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\EmailAccountServices\DisableExistingEmailAccount.resx">
+      <DependentUpon>DisableExistingEmailAccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\EmailAccountServices\EmailAccountCreation.resx">
+      <DependentUpon>EmailAccountCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\EmailAccountServices\EmailAlias.resx">
+      <DependentUpon>EmailAlias.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\EmailAccountServices\EmailDelegates.resx">
+      <DependentUpon>EmailDelegates.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\EmailSupport\GenericAccountCreation.resx">
+      <DependentUpon>GenericAccountCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\UserAccountServices\MailContactModification.resx">
+      <DependentUpon>MailContactModification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\UserAccountServices\MailContactDeletion.resx">
+      <DependentUpon>MailContactDeletion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\UserAccountServices\MailContactCreation.resx">
+      <DependentUpon>MailContactCreation.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubForms\GroupEmailAccount\GroupEmailAccountDeletion.resx">
       <DependentUpon>GroupEmailAccountDeletion.cs</DependentUpon>
@@ -429,8 +537,6 @@
     <Content Include="Resources\open-email.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="SubForms\EmailAccountServices\" />
-    <Folder Include="SubForms\EmailSupport\" />
     <Folder Include="SubForms\MeetingRoom\" />
     <Folder Include="SubForms\SystemAccountServices\" />
   </ItemGroup>

@@ -28,107 +28,124 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.metroButton10 = new MetroFramework.Controls.MetroButton();
-            this.metroButton12 = new MetroFramework.Controls.MetroButton();
-            this.metroButton13 = new MetroFramework.Controls.MetroButton();
-            this.metroButton14 = new MetroFramework.Controls.MetroButton();
+            this.btnEmailAccountCreation = new MetroFramework.Controls.MetroButton();
+            this.btnEmailAlias = new MetroFramework.Controls.MetroButton();
+            this.btnDisableExistingEmail = new MetroFramework.Controls.MetroButton();
+            this.btnEmailDelegates = new MetroFramework.Controls.MetroButton();
             this.label1 = new System.Windows.Forms.Label();
+            this.btnAccessToUserCalendar = new MetroFramework.Controls.MetroButton();
             this.SuspendLayout();
             // 
-            // metroButton10
+            // btnEmailAccountCreation
             // 
-            this.metroButton10.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.metroButton10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton10.FontSize = MetroFramework.MetroButtonSize.Medium;
-            this.metroButton10.ForeColor = System.Drawing.Color.White;
-            this.metroButton10.Location = new System.Drawing.Point(294, 234);
-            this.metroButton10.Name = "metroButton10";
-            this.metroButton10.Size = new System.Drawing.Size(226, 86);
-            this.metroButton10.TabIndex = 19;
-            this.metroButton10.Text = "Email Account Creation";
-            this.metroButton10.UseCustomBackColor = true;
-            this.metroButton10.UseCustomForeColor = true;
-            this.metroButton10.UseSelectable = true;
+            this.btnEmailAccountCreation.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnEmailAccountCreation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.btnEmailAccountCreation.ForeColor = System.Drawing.Color.White;
+            this.btnEmailAccountCreation.Location = new System.Drawing.Point(217, 220);
+            this.btnEmailAccountCreation.Name = "btnEmailAccountCreation";
+            this.btnEmailAccountCreation.Size = new System.Drawing.Size(167, 34);
+            this.btnEmailAccountCreation.TabIndex = 19;
+            this.btnEmailAccountCreation.Text = "Email Account Creation";
+            this.btnEmailAccountCreation.UseCustomBackColor = true;
+            this.btnEmailAccountCreation.UseCustomForeColor = true;
+            this.btnEmailAccountCreation.UseSelectable = true;
+            this.btnEmailAccountCreation.Click += new System.EventHandler(this.btnEmailAccountCreation_Click);
             // 
-            // metroButton12
+            // btnEmailAlias
             // 
-            this.metroButton12.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.metroButton12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton12.FontSize = MetroFramework.MetroButtonSize.Medium;
-            this.metroButton12.ForeColor = System.Drawing.Color.White;
-            this.metroButton12.Location = new System.Drawing.Point(294, 141);
-            this.metroButton12.Name = "metroButton12";
-            this.metroButton12.Size = new System.Drawing.Size(226, 87);
-            this.metroButton12.TabIndex = 17;
-            this.metroButton12.Text = "Email Alias";
-            this.metroButton12.UseCustomBackColor = true;
-            this.metroButton12.UseCustomForeColor = true;
-            this.metroButton12.UseSelectable = true;
+            this.btnEmailAlias.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnEmailAlias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.btnEmailAlias.ForeColor = System.Drawing.Color.White;
+            this.btnEmailAlias.Location = new System.Drawing.Point(217, 260);
+            this.btnEmailAlias.Name = "btnEmailAlias";
+            this.btnEmailAlias.Size = new System.Drawing.Size(167, 35);
+            this.btnEmailAlias.TabIndex = 17;
+            this.btnEmailAlias.Text = "Email Alias";
+            this.btnEmailAlias.UseCustomBackColor = true;
+            this.btnEmailAlias.UseCustomForeColor = true;
+            this.btnEmailAlias.UseSelectable = true;
+            this.btnEmailAlias.Click += new System.EventHandler(this.btnEmailAlias_Click);
             // 
-            // metroButton13
+            // btnDisableExistingEmail
             // 
-            this.metroButton13.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.metroButton13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton13.FontSize = MetroFramework.MetroButtonSize.Medium;
-            this.metroButton13.ForeColor = System.Drawing.Color.White;
-            this.metroButton13.Location = new System.Drawing.Point(62, 234);
-            this.metroButton13.Name = "metroButton13";
-            this.metroButton13.Size = new System.Drawing.Size(226, 86);
-            this.metroButton13.TabIndex = 16;
-            this.metroButton13.Text = "Disable Exisiting Email Account";
-            this.metroButton13.UseCustomBackColor = true;
-            this.metroButton13.UseCustomForeColor = true;
-            this.metroButton13.UseSelectable = true;
+            this.btnDisableExistingEmail.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnDisableExistingEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.btnDisableExistingEmail.ForeColor = System.Drawing.Color.White;
+            this.btnDisableExistingEmail.Location = new System.Drawing.Point(217, 180);
+            this.btnDisableExistingEmail.Name = "btnDisableExistingEmail";
+            this.btnDisableExistingEmail.Size = new System.Drawing.Size(167, 34);
+            this.btnDisableExistingEmail.TabIndex = 16;
+            this.btnDisableExistingEmail.Text = "Disable Exisiting \r\nEmail Account";
+            this.btnDisableExistingEmail.UseCustomBackColor = true;
+            this.btnDisableExistingEmail.UseCustomForeColor = true;
+            this.btnDisableExistingEmail.UseSelectable = true;
+            this.btnDisableExistingEmail.Click += new System.EventHandler(this.btnDisableExistingEmail_Click);
             // 
-            // metroButton14
+            // btnEmailDelegates
             // 
-            this.metroButton14.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.metroButton14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton14.FontSize = MetroFramework.MetroButtonSize.Medium;
-            this.metroButton14.ForeColor = System.Drawing.Color.White;
-            this.metroButton14.Location = new System.Drawing.Point(62, 141);
-            this.metroButton14.Name = "metroButton14";
-            this.metroButton14.Size = new System.Drawing.Size(226, 87);
-            this.metroButton14.TabIndex = 15;
-            this.metroButton14.Text = "Access to Other Users\'s\r\nEmail Account";
-            this.metroButton14.UseCustomBackColor = true;
-            this.metroButton14.UseCustomForeColor = true;
-            this.metroButton14.UseSelectable = true;
+            this.btnEmailDelegates.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnEmailDelegates.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.btnEmailDelegates.ForeColor = System.Drawing.Color.White;
+            this.btnEmailDelegates.Location = new System.Drawing.Point(217, 98);
+            this.btnEmailDelegates.Name = "btnEmailDelegates";
+            this.btnEmailDelegates.Size = new System.Drawing.Size(167, 35);
+            this.btnEmailDelegates.TabIndex = 15;
+            this.btnEmailDelegates.Text = "Email Delegates";
+            this.btnEmailDelegates.UseCustomBackColor = true;
+            this.btnEmailDelegates.UseCustomForeColor = true;
+            this.btnEmailDelegates.UseSelectable = true;
+            this.btnEmailDelegates.Click += new System.EventHandler(this.btnEmailDelegates_Click);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 20F, System.Drawing.FontStyle.Bold);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
             this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.label1.Location = new System.Drawing.Point(56, 46);
+            this.label1.Location = new System.Drawing.Point(18, 21);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(405, 31);
+            this.label1.Size = new System.Drawing.Size(317, 25);
             this.label1.TabIndex = 26;
             this.label1.Text = "EMAIL ACCOUNT SERVICES";
+            // 
+            // btnAccessToUserCalendar
+            // 
+            this.btnAccessToUserCalendar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnAccessToUserCalendar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.btnAccessToUserCalendar.ForeColor = System.Drawing.Color.White;
+            this.btnAccessToUserCalendar.Location = new System.Drawing.Point(217, 139);
+            this.btnAccessToUserCalendar.Name = "btnAccessToUserCalendar";
+            this.btnAccessToUserCalendar.Size = new System.Drawing.Size(167, 35);
+            this.btnAccessToUserCalendar.TabIndex = 27;
+            this.btnAccessToUserCalendar.Text = "Access to Another \r\nUser\'s Calendar";
+            this.btnAccessToUserCalendar.UseCustomBackColor = true;
+            this.btnAccessToUserCalendar.UseCustomForeColor = true;
+            this.btnAccessToUserCalendar.UseSelectable = true;
+            this.btnAccessToUserCalendar.Click += new System.EventHandler(this.btnAccessToUserCalendar_Click);
             // 
             // EmailAccountServices
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.btnAccessToUserCalendar);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.metroButton10);
-            this.Controls.Add(this.metroButton12);
-            this.Controls.Add(this.metroButton13);
-            this.Controls.Add(this.metroButton14);
+            this.Controls.Add(this.btnEmailAccountCreation);
+            this.Controls.Add(this.btnEmailAlias);
+            this.Controls.Add(this.btnDisableExistingEmail);
+            this.Controls.Add(this.btnEmailDelegates);
             this.Name = "EmailAccountServices";
-            this.Size = new System.Drawing.Size(590, 480);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
         #endregion
-        private MetroFramework.Controls.MetroButton metroButton10;
-        private MetroFramework.Controls.MetroButton metroButton12;
-        private MetroFramework.Controls.MetroButton metroButton13;
-        private MetroFramework.Controls.MetroButton metroButton14;
+        private MetroFramework.Controls.MetroButton btnEmailAccountCreation;
+        private MetroFramework.Controls.MetroButton btnEmailAlias;
+        private MetroFramework.Controls.MetroButton btnDisableExistingEmail;
+        private MetroFramework.Controls.MetroButton btnEmailDelegates;
         private System.Windows.Forms.Label label1;
+        private MetroFramework.Controls.MetroButton btnAccessToUserCalendar;
     }
 }

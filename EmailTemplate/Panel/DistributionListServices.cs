@@ -30,5 +30,23 @@ namespace EmailTemplate.Panel
             EmailTemplate em = new EmailTemplate();
             em.OpenDistributionListCreation();
         }
+
+        private void btnDLModify_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenDistributionListModify();
+        }
+
+        private void btnDLDeletion_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenDistributionListDelete();
+        }
+
+        private void btnDLAccess_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenDistributionListAccess();
+        }
     }
 }

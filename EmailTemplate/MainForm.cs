@@ -148,7 +148,21 @@ namespace EmailTemplate
             ModifyEndDate MED = new ModifyEndDate();
             MED.Show();
         }
-
+        public void OpenMailContactCreation()
+        {
+            MailContactCreation MCC = new MailContactCreation();
+            MCC.Show();
+        }
+        public void OpenMailContactDeletion()
+        {
+            MailContactDeletion MCD = new MailContactDeletion();
+            MCD.Show();
+        }
+        public void OpenMailContactModification()
+        {
+            MailContactModification MCM = new MailContactModification();
+            MCM.Show();
+        }
         //================USER-ACCOUNT-SERVICES==================
         //===============Installation-Accss-REQUEST===================
         public void OpenSoftInstallation()
@@ -234,6 +248,50 @@ namespace EmailTemplate
             CreateDistributionList CDL = new CreateDistributionList();
             CDL.Show();
         }
+        public void OpenDistributionListDelete()
+        {
+            DeleteDisitributionList DDL = new DeleteDisitributionList();
+            DDL.Show();
+        }
+        public void OpenDistributionListModify()
+        {
+            ModifyDistributionList MDL = new ModifyDistributionList();
+            MDL.Show();
+        }
+        public void OpenDistributionListAccess()
+        {
+            DistributionListAccess ADL = new DistributionListAccess();
+            ADL.Show();
+        }
+
+        // -- Email Account Services -- //
+        public void OpenEmailDelegates()
+        {
+            EmailDelegates ED = new EmailDelegates();
+            ED.Show();
+        }
+        public void OpenEmailAlias()
+        {
+            EmailAlias EA = new EmailAlias();
+            EA.Show();
+        }
+        public void OpenEmailAccountCreation()
+        {
+            EmailAccountCreation EAC = new EmailAccountCreation();
+            EAC.Show();
+        }
+        public void OpenDisableExistingEmailAccount()
+        {
+            DisableExistingEmailAccount DEA = new DisableExistingEmailAccount();
+            DEA.Show();
+        }
+        public void OpenAccessToAnotherUserCalendar()
+        {
+            AccessToAnotherUserCalendar ATAUC = new AccessToAnotherUserCalendar();
+            ATAUC.Show();
+        }
+
+
 
         // About Form
     }

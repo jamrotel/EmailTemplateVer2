@@ -129,6 +129,7 @@
             this.btnMailContactCreation.UseCustomBackColor = true;
             this.btnMailContactCreation.UseCustomForeColor = true;
             this.btnMailContactCreation.UseSelectable = true;
+            this.btnMailContactCreation.Click += new System.EventHandler(this.btnMailContactCreation_Click);
             // 
             // btnModifyEndDate
             // 
@@ -173,6 +174,7 @@
             this.btnMailContactDeletion.UseCustomBackColor = true;
             this.btnMailContactDeletion.UseCustomForeColor = true;
             this.btnMailContactDeletion.UseSelectable = true;
+            this.btnMailContactDeletion.Click += new System.EventHandler(this.btnMailContactDeletion_Click);
             // 
             // btnMailContactModify
             // 
@@ -217,7 +219,6 @@
             this.Controls.Add(this.btnEmployeeNetworkEmailReactivation);
             this.Controls.Add(this.btnNetworkAccountBundle);
             this.Name = "UserAccountServices";
-            this.Size = new System.Drawing.Size(590, 351);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -62,7 +62,20 @@ namespace EmailTemplate.Panel
 
         private void btnMailContactModify_Click(object sender, EventArgs e)
         {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenMailContactModification();
+        }
 
+        private void btnMailContactCreation_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenMailContactCreation();
+        }
+
+        private void btnMailContactDeletion_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenMailContactDeletion();
         }
 
         //================USER-ACCOUNT-SERVICES==================

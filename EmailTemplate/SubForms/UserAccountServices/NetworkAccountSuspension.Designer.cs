@@ -42,23 +42,25 @@
             this.label9 = new System.Windows.Forms.Label();
             this.txtdate = new System.Windows.Forms.DateTimePicker();
             this.label5 = new System.Windows.Forms.Label();
+            this.txtTaskID = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(29, 82);
+            this.label1.Location = new System.Drawing.Point(85, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(239, 20);
+            this.label1.Size = new System.Drawing.Size(134, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Ticket Number (SCTASK / REQ):\r\n";
+            this.label1.Text = "Request Number:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(134, 184);
+            this.label2.Location = new System.Drawing.Point(85, 218);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(134, 20);
             this.label2.TabIndex = 1;
@@ -68,7 +70,7 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(78, 116);
+            this.label3.Location = new System.Drawing.Point(29, 150);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(190, 20);
             this.label3.TabIndex = 2;
@@ -77,7 +79,7 @@
             // txtTicketNumber
             // 
             this.txtTicketNumber.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtTicketNumber.Location = new System.Drawing.Point(274, 79);
+            this.txtTicketNumber.Location = new System.Drawing.Point(225, 79);
             this.txtTicketNumber.Multiline = true;
             this.txtTicketNumber.Name = "txtTicketNumber";
             this.txtTicketNumber.Size = new System.Drawing.Size(255, 28);
@@ -86,7 +88,7 @@
             // txtRecipientEmail
             // 
             this.txtRecipientEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtRecipientEmail.Location = new System.Drawing.Point(274, 181);
+            this.txtRecipientEmail.Location = new System.Drawing.Point(225, 215);
             this.txtRecipientEmail.Multiline = true;
             this.txtRecipientEmail.Name = "txtRecipientEmail";
             this.txtRecipientEmail.Size = new System.Drawing.Size(255, 28);
@@ -95,7 +97,7 @@
             // txtFirstName
             // 
             this.txtFirstName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtFirstName.Location = new System.Drawing.Point(274, 113);
+            this.txtFirstName.Location = new System.Drawing.Point(225, 147);
             this.txtFirstName.Multiline = true;
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(255, 28);
@@ -104,7 +106,7 @@
             // btnGenerate
             // 
             this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnGenerate.Location = new System.Drawing.Point(417, 285);
+            this.btnGenerate.Location = new System.Drawing.Point(368, 319);
             this.btnGenerate.Name = "btnGenerate";
             this.btnGenerate.Size = new System.Drawing.Size(112, 32);
             this.btnGenerate.TabIndex = 7;
@@ -116,7 +118,7 @@
             // 
             this.btnClear.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnClear.Location = new System.Drawing.Point(274, 285);
+            this.btnClear.Location = new System.Drawing.Point(225, 319);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(112, 32);
             this.btnClear.TabIndex = 8;
@@ -128,7 +130,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(126, 150);
+            this.label4.Location = new System.Drawing.Point(77, 184);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(142, 20);
             this.label4.TabIndex = 3;
@@ -137,7 +139,7 @@
             // txtEmailAddress
             // 
             this.txtEmailAddress.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtEmailAddress.Location = new System.Drawing.Point(274, 147);
+            this.txtEmailAddress.Location = new System.Drawing.Point(225, 181);
             this.txtEmailAddress.Multiline = true;
             this.txtEmailAddress.Name = "txtEmailAddress";
             this.txtEmailAddress.Size = new System.Drawing.Size(255, 28);
@@ -146,7 +148,7 @@
             // txtusername
             // 
             this.txtusername.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtusername.Location = new System.Drawing.Point(274, 215);
+            this.txtusername.Location = new System.Drawing.Point(225, 249);
             this.txtusername.Multiline = true;
             this.txtusername.Name = "txtusername";
             this.txtusername.Size = new System.Drawing.Size(255, 28);
@@ -156,7 +158,7 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.Location = new System.Drawing.Point(110, 218);
+            this.label9.Location = new System.Drawing.Point(61, 252);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(158, 20);
             this.label9.TabIndex = 17;
@@ -165,7 +167,7 @@
             // txtdate
             // 
             this.txtdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.txtdate.Location = new System.Drawing.Point(274, 249);
+            this.txtdate.Location = new System.Drawing.Point(225, 283);
             this.txtdate.Name = "txtdate";
             this.txtdate.Size = new System.Drawing.Size(255, 26);
             this.txtdate.TabIndex = 18;
@@ -174,17 +176,38 @@
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(132, 254);
+            this.label5.Location = new System.Drawing.Point(83, 288);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(136, 20);
             this.label5.TabIndex = 19;
             this.label5.Text = "Reactivation Date";
             // 
+            // txtTaskID
+            // 
+            this.txtTaskID.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtTaskID.Location = new System.Drawing.Point(225, 113);
+            this.txtTaskID.Multiline = true;
+            this.txtTaskID.Name = "txtTaskID";
+            this.txtTaskID.Size = new System.Drawing.Size(255, 28);
+            this.txtTaskID.TabIndex = 20;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(151, 116);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(68, 20);
+            this.label6.TabIndex = 21;
+            this.label6.Text = "Task ID:";
+            // 
             // NetworkAccountSuspension
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(562, 333);
+            this.ClientSize = new System.Drawing.Size(506, 367);
+            this.Controls.Add(this.txtTaskID);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtdate);
             this.Controls.Add(this.label9);
@@ -223,5 +246,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.DateTimePicker txtdate;
         private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.TextBox txtTaskID;
+        private System.Windows.Forms.Label label6;
     }
 }
