@@ -9,6 +9,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Outlook = Microsoft.Office.Interop.Outlook;
+using NLog;
+using System.Reflection;
+using System.Windows.Forms;
+using System.Configuration;
 
 namespace EmailTemplate
 {
@@ -18,9 +22,8 @@ namespace EmailTemplate
         {
             InitializeComponent();
 
-            lblAuthor.Text = ET.Default.Author;
-            lblDate.Text = ET.Default.Date;
-            lblVersion.Text = ET.Default.VersionBuild;
+            lblVersion.Text = Properties.Settings.Default.Versioning;
+            lblAuthor.Text = Properties.Settings.Default.Author;
         }
     }
 }

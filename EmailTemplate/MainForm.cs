@@ -10,6 +10,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Outlook = Microsoft.Office.Interop.Outlook;
 using NLog;
+using System.Reflection;
+using System.Windows.Forms;
+using System.Configuration;
 
 namespace EmailTemplate
 {
@@ -18,11 +21,18 @@ namespace EmailTemplate
         private static Logger logger = LogManager.GetCurrentClassLogger();
         public EmailTemplate()
         {
-            try {
+            try
+            {
                 InitializeComponent();
+                Version version = Assembly.GetExecutingAssembly().GetName().Version;
+                Properties.Settings.Default.Versioning = version.ToString();
+                Properties.Settings.Default.Save();
+
             }
-            catch (Exception ex) {
+            catch (Exception ex)
+            {
                 logger.Debug("Debug:", ex.ToString());
+
             }
         }
         //======================user account creation- pannel variable ============================

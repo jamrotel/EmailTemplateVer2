@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>email.ico</ApplicationIcon>
+    <ApplicationIcon>Resources\email.ico</ApplicationIcon>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
@@ -155,11 +155,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ET.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTimeSharedInput>True</DesignTimeSharedInput>
-      <DependentUpon>ET.settings</DependentUpon>
-    </Compile>
     <Compile Include="SubForms\DistributionListServices\CreateDistributionList.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -280,6 +275,15 @@
     <Compile Include="SubForms\UserAccountServices\NetworkAccountBundle.Designer.cs">
       <DependentUpon>NetworkAccountBundle.cs</DependentUpon>
     </Compile>
+    <Compile Include="Version.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Version.tt</DependentUpon>
+    </Compile>
+    <Content Include="Version.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Version.cs</LastGenOutput>
+    </Content>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
@@ -381,7 +385,7 @@
     <EmbeddedResource Include="SubForms\UserAccountServices\NetworkAccountBundle.resx">
       <DependentUpon>NetworkAccountBundle.cs</DependentUpon>
     </EmbeddedResource>
-    <Content Include="email.ico" />
+    <Content Include="Resources\email.ico" />
     <Content Include="NLog.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -400,10 +404,6 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="ET.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
-      <LastGenOutput>ET.Designer.cs</LastGenOutput>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -424,7 +424,7 @@
     <None Include="Resources\DXCLogo.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="open-email.ico" />
+    <Content Include="Resources\open-email.ico" />
     <Content Include="Resources\about.png" />
     <Content Include="Resources\open-email.png" />
   </ItemGroup>
@@ -433,6 +433,9 @@
     <Folder Include="SubForms\EmailSupport\" />
     <Folder Include="SubForms\MeetingRoom\" />
     <Folder Include="SubForms\SystemAccountServices\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

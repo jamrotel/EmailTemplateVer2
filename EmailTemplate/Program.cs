@@ -17,7 +17,7 @@ namespace EmailTemplate
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new EmailTemplate());
-            //Application.Run(new SoftwareInstallation());
+
         }
     }
 }
