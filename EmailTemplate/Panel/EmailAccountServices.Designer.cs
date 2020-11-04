@@ -41,7 +41,7 @@
             this.btnEmailAccountCreation.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnEmailAccountCreation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnEmailAccountCreation.ForeColor = System.Drawing.Color.White;
-            this.btnEmailAccountCreation.Location = new System.Drawing.Point(217, 220);
+            this.btnEmailAccountCreation.Location = new System.Drawing.Point(23, 192);
             this.btnEmailAccountCreation.Name = "btnEmailAccountCreation";
             this.btnEmailAccountCreation.Size = new System.Drawing.Size(167, 34);
             this.btnEmailAccountCreation.TabIndex = 19;
@@ -56,7 +56,7 @@
             this.btnEmailAlias.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnEmailAlias.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnEmailAlias.ForeColor = System.Drawing.Color.White;
-            this.btnEmailAlias.Location = new System.Drawing.Point(217, 260);
+            this.btnEmailAlias.Location = new System.Drawing.Point(23, 232);
             this.btnEmailAlias.Name = "btnEmailAlias";
             this.btnEmailAlias.Size = new System.Drawing.Size(167, 35);
             this.btnEmailAlias.TabIndex = 17;
@@ -71,7 +71,7 @@
             this.btnDisableExistingEmail.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnDisableExistingEmail.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnDisableExistingEmail.ForeColor = System.Drawing.Color.White;
-            this.btnDisableExistingEmail.Location = new System.Drawing.Point(217, 180);
+            this.btnDisableExistingEmail.Location = new System.Drawing.Point(23, 152);
             this.btnDisableExistingEmail.Name = "btnDisableExistingEmail";
             this.btnDisableExistingEmail.Size = new System.Drawing.Size(167, 34);
             this.btnDisableExistingEmail.TabIndex = 16;
@@ -86,7 +86,7 @@
             this.btnEmailDelegates.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnEmailDelegates.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnEmailDelegates.ForeColor = System.Drawing.Color.White;
-            this.btnEmailDelegates.Location = new System.Drawing.Point(217, 98);
+            this.btnEmailDelegates.Location = new System.Drawing.Point(23, 70);
             this.btnEmailDelegates.Name = "btnEmailDelegates";
             this.btnEmailDelegates.Size = new System.Drawing.Size(167, 35);
             this.btnEmailDelegates.TabIndex = 15;
@@ -113,7 +113,7 @@
             this.btnAccessToUserCalendar.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnAccessToUserCalendar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnAccessToUserCalendar.ForeColor = System.Drawing.Color.White;
-            this.btnAccessToUserCalendar.Location = new System.Drawing.Point(217, 139);
+            this.btnAccessToUserCalendar.Location = new System.Drawing.Point(23, 111);
             this.btnAccessToUserCalendar.Name = "btnAccessToUserCalendar";
             this.btnAccessToUserCalendar.Size = new System.Drawing.Size(167, 35);
             this.btnAccessToUserCalendar.TabIndex = 27;

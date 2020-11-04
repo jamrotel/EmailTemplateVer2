@@ -12,9 +12,9 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 
 namespace EmailTemplate
 {
-    public partial class RemoteAccessCitrix : MetroFramework.Forms.MetroForm
+    public partial class RemoteAccessRequest : MetroFramework.Forms.MetroForm
     {
-        public RemoteAccessCitrix()
+        public RemoteAccessRequest()
         {
             InitializeComponent();
         }

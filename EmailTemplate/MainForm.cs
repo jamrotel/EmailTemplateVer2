@@ -108,7 +108,13 @@ namespace EmailTemplate
             GroupEmailAccount _GEA = new GroupEmailAccount(this);
             _GEA.swipe(true);
         }
-        // not sure what this is  ??
+
+        //Main pannel of - System Account Service
+        private void panelSystemAccountServices_Click(object sender, EventArgs e)
+        {
+            SystemAccountServices _SAS = new SystemAccountServices(this);
+            _SAS.swipe(true);
+        }
 
 
         //=========================================================sub pannels============================================================================
@@ -176,27 +182,19 @@ namespace EmailTemplate
             elevatedAdmin.Show();
         }
 
-        public void OpenVPNRemoteAccessRequest() {
-            VPNAccess vpnaccess = new VPNAccess();
-            vpnaccess.Show();
+        public void OpenRemoteAccessRequest() {
+            RemoteAccessRequest RAR = new RemoteAccessRequest();
+            RAR.Show();
         }
-        public void OpenRemoteAccessCitrix() {
-            RemoteAccessCitrix remoteAccessCitrix = new RemoteAccessCitrix();
-            remoteAccessCitrix.Show();
-        }
+
         public void OpenSharedDriveAccess() {
             SharedDriveAccess sharedDriveAccess = new SharedDriveAccess();
             sharedDriveAccess.Show();
         }
-        public void OpenShareFileAccess()
+        public void OpenScreenSaverExemption()
         {
-            ShareFileAccess shareFileAccess = new ShareFileAccess();
-            shareFileAccess.Show();
-        }
-        public void OpenMSLyncAccount()
-        {
-            MSLyncAccount mSLyncAccount = new MSLyncAccount();
-            mSLyncAccount.Show();
+            ScreenSaverExemption SSE = new ScreenSaverExemption();
+            SSE.Show();
             
         }
         public void OpenAudioWebConferencing()
@@ -291,7 +289,13 @@ namespace EmailTemplate
             ATAUC.Show();
         }
 
+        // ----- System Account Services ---- //
 
+        public void OpenGenericAccountCreation()
+        {
+            GenericAccountCreation GAC = new GenericAccountCreation();
+            GAC.Show();
+        }
 
         // About Form
     }

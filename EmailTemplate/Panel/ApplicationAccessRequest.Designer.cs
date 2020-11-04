@@ -41,11 +41,10 @@
             // 
             this.metroButton16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton16.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.metroButton16.ForeColor = System.Drawing.Color.White;
-            this.metroButton16.Location = new System.Drawing.Point(69, 253);
+            this.metroButton16.Location = new System.Drawing.Point(33, 98);
             this.metroButton16.Name = "metroButton16";
-            this.metroButton16.Size = new System.Drawing.Size(226, 85);
+            this.metroButton16.Size = new System.Drawing.Size(186, 32);
             this.metroButton16.TabIndex = 21;
             this.metroButton16.Text = "Access to another \r\nemail account";
             this.metroButton16.UseCustomBackColor = true;
@@ -56,11 +55,10 @@
             // 
             this.metroButton21.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton21.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.metroButton21.ForeColor = System.Drawing.Color.White;
-            this.metroButton21.Location = new System.Drawing.Point(66, 61);
+            this.metroButton21.Location = new System.Drawing.Point(30, 22);
             this.metroButton21.Name = "metroButton21";
-            this.metroButton21.Size = new System.Drawing.Size(229, 85);
+            this.metroButton21.Size = new System.Drawing.Size(189, 32);
             this.metroButton21.TabIndex = 16;
             this.metroButton21.Text = "Email Creation";
             this.metroButton21.UseCustomBackColor = true;
@@ -71,11 +69,10 @@
             // 
             this.metroButton20.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton20.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.metroButton20.ForeColor = System.Drawing.Color.White;
-            this.metroButton20.Location = new System.Drawing.Point(66, 157);
+            this.metroButton20.Location = new System.Drawing.Point(30, 60);
             this.metroButton20.Name = "metroButton20";
-            this.metroButton20.Size = new System.Drawing.Size(229, 85);
+            this.metroButton20.Size = new System.Drawing.Size(189, 32);
             this.metroButton20.TabIndex = 17;
             this.metroButton20.Text = "Email Alias";
             this.metroButton20.UseCustomBackColor = true;
@@ -86,11 +83,10 @@
             // 
             this.metroButton23.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton23.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.metroButton23.ForeColor = System.Drawing.Color.White;
-            this.metroButton23.Location = new System.Drawing.Point(69, 349);
+            this.metroButton23.Location = new System.Drawing.Point(33, 136);
             this.metroButton23.Name = "metroButton23";
-            this.metroButton23.Size = new System.Drawing.Size(226, 85);
+            this.metroButton23.Size = new System.Drawing.Size(186, 32);
             this.metroButton23.TabIndex = 26;
             this.metroButton23.Text = "Planned Outage";
             this.metroButton23.UseCustomBackColor = true;
@@ -101,11 +97,10 @@
             // 
             this.metroButton24.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton24.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.metroButton24.ForeColor = System.Drawing.Color.White;
-            this.metroButton24.Location = new System.Drawing.Point(301, 253);
+            this.metroButton24.Location = new System.Drawing.Point(30, 212);
             this.metroButton24.Name = "metroButton24";
-            this.metroButton24.Size = new System.Drawing.Size(226, 82);
+            this.metroButton24.Size = new System.Drawing.Size(186, 29);
             this.metroButton24.TabIndex = 24;
             this.metroButton24.Text = "Advice and Guidance";
             this.metroButton24.UseCustomBackColor = true;
@@ -116,11 +111,10 @@
             // 
             this.metroButton25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton25.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.metroButton25.ForeColor = System.Drawing.Color.White;
-            this.metroButton25.Location = new System.Drawing.Point(301, 349);
+            this.metroButton25.Location = new System.Drawing.Point(30, 247);
             this.metroButton25.Name = "metroButton25";
-            this.metroButton25.Size = new System.Drawing.Size(226, 85);
+            this.metroButton25.Size = new System.Drawing.Size(186, 32);
             this.metroButton25.TabIndex = 25;
             this.metroButton25.Text = "FCR ISSUE";
             this.metroButton25.UseCustomBackColor = true;
@@ -131,11 +125,10 @@
             // 
             this.metroButton26.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.metroButton26.FontSize = MetroFramework.MetroButtonSize.Tall;
             this.metroButton26.ForeColor = System.Drawing.Color.White;
-            this.metroButton26.Location = new System.Drawing.Point(301, 157);
+            this.metroButton26.Location = new System.Drawing.Point(30, 174);
             this.metroButton26.Name = "metroButton26";
-            this.metroButton26.Size = new System.Drawing.Size(226, 85);
+            this.metroButton26.Size = new System.Drawing.Size(186, 32);
             this.metroButton26.TabIndex = 23;
             this.metroButton26.Text = "Assigned to Support Team";
             this.metroButton26.UseCustomBackColor = true;
@@ -155,7 +148,6 @@
             this.Controls.Add(this.metroButton21);
             this.Controls.Add(this.metroButton20);
             this.Name = "ApplicationAccessRequest";
-            this.Size = new System.Drawing.Size(590, 480);
             this.ResumeLayout(false);
 
         }

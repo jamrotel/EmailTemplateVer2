@@ -148,7 +148,6 @@
             this.Controls.Add(this.metroButton21);
             this.Controls.Add(this.metroButton20);
             this.Name = "AdditionalInformation";
-            this.Size = new System.Drawing.Size(590, 480);
             this.ResumeLayout(false);
 
         }

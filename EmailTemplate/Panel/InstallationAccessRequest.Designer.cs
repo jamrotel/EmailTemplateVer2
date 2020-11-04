@@ -29,16 +29,12 @@
         private void InitializeComponent()
         {
             this.btnAudioWebConferencing = new MetroFramework.Controls.MetroButton();
-            this.btnShareFileAccessInstallation = new MetroFramework.Controls.MetroButton();
-            this.btnRemoteAccessCitrix = new MetroFramework.Controls.MetroButton();
-            this.btnVPNAccess = new MetroFramework.Controls.MetroButton();
+            this.btnRemoteAccessRequest = new MetroFramework.Controls.MetroButton();
             this.btnElevatedAccess = new MetroFramework.Controls.MetroButton();
             this.btnSoftware = new MetroFramework.Controls.MetroButton();
-            this.performanceCounter1 = new System.Diagnostics.PerformanceCounter();
             this.btnSharedDriveAccess = new MetroFramework.Controls.MetroButton();
             this.btnScreenSaverExemption = new MetroFramework.Controls.MetroButton();
-            this.btnMSLyncAccountCreation = new MetroFramework.Controls.MetroButton();
-            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).BeginInit();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // btnAudioWebConferencing
@@ -46,69 +42,39 @@
             this.btnAudioWebConferencing.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnAudioWebConferencing.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnAudioWebConferencing.ForeColor = System.Drawing.Color.White;
-            this.btnAudioWebConferencing.Location = new System.Drawing.Point(136, 63);
+            this.btnAudioWebConferencing.Location = new System.Drawing.Point(21, 67);
             this.btnAudioWebConferencing.Name = "btnAudioWebConferencing";
             this.btnAudioWebConferencing.Size = new System.Drawing.Size(170, 35);
             this.btnAudioWebConferencing.TabIndex = 14;
-            this.btnAudioWebConferencing.Text = "Audio Web Conferencing\r\n";
+            this.btnAudioWebConferencing.Text = "Audio Web Conferencing";
             this.btnAudioWebConferencing.UseCustomBackColor = true;
             this.btnAudioWebConferencing.UseCustomForeColor = true;
             this.btnAudioWebConferencing.UseSelectable = true;
             this.btnAudioWebConferencing.Click += new System.EventHandler(this.btnAudioWebConferencing_Click);
             // 
-            // btnShareFileAccessInstallation
+            // btnRemoteAccessRequest
             // 
-            this.btnShareFileAccessInstallation.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnShareFileAccessInstallation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.btnShareFileAccessInstallation.ForeColor = System.Drawing.Color.White;
-            this.btnShareFileAccessInstallation.Location = new System.Drawing.Point(133, 186);
-            this.btnShareFileAccessInstallation.Name = "btnShareFileAccessInstallation";
-            this.btnShareFileAccessInstallation.Size = new System.Drawing.Size(173, 35);
-            this.btnShareFileAccessInstallation.TabIndex = 13;
-            this.btnShareFileAccessInstallation.Text = "ShareFile Access and\r\n Installation";
-            this.btnShareFileAccessInstallation.UseCustomBackColor = true;
-            this.btnShareFileAccessInstallation.UseCustomForeColor = true;
-            this.btnShareFileAccessInstallation.UseSelectable = true;
-            this.btnShareFileAccessInstallation.Click += new System.EventHandler(this.btnSharedFileFolderAccess_Click);
-            // 
-            // btnRemoteAccessCitrix
-            // 
-            this.btnRemoteAccessCitrix.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnRemoteAccessCitrix.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.btnRemoteAccessCitrix.ForeColor = System.Drawing.Color.White;
-            this.btnRemoteAccessCitrix.Location = new System.Drawing.Point(136, 145);
-            this.btnRemoteAccessCitrix.Name = "btnRemoteAccessCitrix";
-            this.btnRemoteAccessCitrix.Size = new System.Drawing.Size(170, 35);
-            this.btnRemoteAccessCitrix.TabIndex = 12;
-            this.btnRemoteAccessCitrix.Text = "Remote Citrix Access Request";
-            this.btnRemoteAccessCitrix.UseCustomBackColor = true;
-            this.btnRemoteAccessCitrix.UseCustomForeColor = true;
-            this.btnRemoteAccessCitrix.UseSelectable = true;
-            this.btnRemoteAccessCitrix.Click += new System.EventHandler(this.btnRemoteAccessCitrix_Click);
-            // 
-            // btnVPNAccess
-            // 
-            this.btnVPNAccess.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnVPNAccess.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.btnVPNAccess.ForeColor = System.Drawing.Color.White;
-            this.btnVPNAccess.Location = new System.Drawing.Point(133, 227);
-            this.btnVPNAccess.Name = "btnVPNAccess";
-            this.btnVPNAccess.Size = new System.Drawing.Size(173, 37);
-            this.btnVPNAccess.TabIndex = 11;
-            this.btnVPNAccess.Text = "VPN Remote Access Request";
-            this.btnVPNAccess.UseCustomBackColor = true;
-            this.btnVPNAccess.UseCustomForeColor = true;
-            this.btnVPNAccess.UseSelectable = true;
-            this.btnVPNAccess.Click += new System.EventHandler(this.btnVPNAccess_Click);
+            this.btnRemoteAccessRequest.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.btnRemoteAccessRequest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
+            this.btnRemoteAccessRequest.ForeColor = System.Drawing.Color.White;
+            this.btnRemoteAccessRequest.Location = new System.Drawing.Point(21, 149);
+            this.btnRemoteAccessRequest.Name = "btnRemoteAccessRequest";
+            this.btnRemoteAccessRequest.Size = new System.Drawing.Size(170, 35);
+            this.btnRemoteAccessRequest.TabIndex = 12;
+            this.btnRemoteAccessRequest.Text = "Remote Access Request";
+            this.btnRemoteAccessRequest.UseCustomBackColor = true;
+            this.btnRemoteAccessRequest.UseCustomForeColor = true;
+            this.btnRemoteAccessRequest.UseSelectable = true;
+            this.btnRemoteAccessRequest.Click += new System.EventHandler(this.btnRemoteAccessRequest_Click);
             // 
             // btnElevatedAccess
             // 
             this.btnElevatedAccess.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnElevatedAccess.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnElevatedAccess.ForeColor = System.Drawing.Color.White;
-            this.btnElevatedAccess.Location = new System.Drawing.Point(312, 63);
+            this.btnElevatedAccess.Location = new System.Drawing.Point(21, 190);
             this.btnElevatedAccess.Name = "btnElevatedAccess";
-            this.btnElevatedAccess.Size = new System.Drawing.Size(172, 35);
+            this.btnElevatedAccess.Size = new System.Drawing.Size(170, 35);
             this.btnElevatedAccess.TabIndex = 10;
             this.btnElevatedAccess.Text = "Elevated Priviledge Access";
             this.btnElevatedAccess.UseCustomBackColor = true;
@@ -122,7 +88,7 @@
             this.btnSoftware.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnSoftware.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.btnSoftware.ForeColor = System.Drawing.Color.White;
-            this.btnSoftware.Location = new System.Drawing.Point(312, 186);
+            this.btnSoftware.Location = new System.Drawing.Point(21, 272);
             this.btnSoftware.Name = "btnSoftware";
             this.btnSoftware.Size = new System.Drawing.Size(170, 35);
             this.btnSoftware.TabIndex = 9;
@@ -137,11 +103,11 @@
             this.btnSharedDriveAccess.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnSharedDriveAccess.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnSharedDriveAccess.ForeColor = System.Drawing.Color.White;
-            this.btnSharedDriveAccess.Location = new System.Drawing.Point(312, 145);
+            this.btnSharedDriveAccess.Location = new System.Drawing.Point(21, 231);
             this.btnSharedDriveAccess.Name = "btnSharedDriveAccess";
             this.btnSharedDriveAccess.Size = new System.Drawing.Size(170, 35);
             this.btnSharedDriveAccess.TabIndex = 16;
-            this.btnSharedDriveAccess.Text = "Shared Drive Access\r\n";
+            this.btnSharedDriveAccess.Text = "Shared Drive Access";
             this.btnSharedDriveAccess.UseCustomBackColor = true;
             this.btnSharedDriveAccess.UseCustomForeColor = true;
             this.btnSharedDriveAccess.UseSelectable = true;
@@ -152,7 +118,7 @@
             this.btnScreenSaverExemption.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnScreenSaverExemption.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnScreenSaverExemption.ForeColor = System.Drawing.Color.White;
-            this.btnScreenSaverExemption.Location = new System.Drawing.Point(136, 104);
+            this.btnScreenSaverExemption.Location = new System.Drawing.Point(21, 108);
             this.btnScreenSaverExemption.Name = "btnScreenSaverExemption";
             this.btnScreenSaverExemption.Size = new System.Drawing.Size(170, 35);
             this.btnScreenSaverExemption.TabIndex = 15;
@@ -160,53 +126,46 @@
             this.btnScreenSaverExemption.UseCustomBackColor = true;
             this.btnScreenSaverExemption.UseCustomForeColor = true;
             this.btnScreenSaverExemption.UseSelectable = true;
+            this.btnScreenSaverExemption.Click += new System.EventHandler(this.btnScreenSaverExemption_Click);
             // 
-            // btnMSLyncAccountCreation
+            // label1
             // 
-            this.btnMSLyncAccountCreation.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.btnMSLyncAccountCreation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.btnMSLyncAccountCreation.ForeColor = System.Drawing.Color.White;
-            this.btnMSLyncAccountCreation.Location = new System.Drawing.Point(312, 104);
-            this.btnMSLyncAccountCreation.Name = "btnMSLyncAccountCreation";
-            this.btnMSLyncAccountCreation.Size = new System.Drawing.Size(170, 35);
-            this.btnMSLyncAccountCreation.TabIndex = 17;
-            this.btnMSLyncAccountCreation.Text = "MS Lync Account Creation\r\n";
-            this.btnMSLyncAccountCreation.UseCustomBackColor = true;
-            this.btnMSLyncAccountCreation.UseCustomForeColor = true;
-            this.btnMSLyncAccountCreation.UseSelectable = true;
-            this.btnMSLyncAccountCreation.Click += new System.EventHandler(this.btnMSLyncAccountCreation_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label1.Location = new System.Drawing.Point(16, 15);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(304, 25);
+            this.label1.TabIndex = 26;
+            this.label1.Text = "Installation Access Request";
             // 
             // InstallationAccessRequest
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.Controls.Add(this.btnMSLyncAccountCreation);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSharedDriveAccess);
             this.Controls.Add(this.btnScreenSaverExemption);
             this.Controls.Add(this.btnAudioWebConferencing);
-            this.Controls.Add(this.btnShareFileAccessInstallation);
-            this.Controls.Add(this.btnRemoteAccessCitrix);
-            this.Controls.Add(this.btnVPNAccess);
+            this.Controls.Add(this.btnRemoteAccessRequest);
             this.Controls.Add(this.btnElevatedAccess);
             this.Controls.Add(this.btnSoftware);
             this.Name = "InstallationAccessRequest";
-            ((System.ComponentModel.ISupportInitialize)(this.performanceCounter1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
         private MetroFramework.Controls.MetroButton btnAudioWebConferencing;
-        private MetroFramework.Controls.MetroButton btnShareFileAccessInstallation;
-        private MetroFramework.Controls.MetroButton btnRemoteAccessCitrix;
-        private MetroFramework.Controls.MetroButton btnVPNAccess;
+        private MetroFramework.Controls.MetroButton btnRemoteAccessRequest;
         private MetroFramework.Controls.MetroButton btnElevatedAccess;
         private MetroFramework.Controls.MetroButton btnSoftware;
-        private System.Diagnostics.PerformanceCounter performanceCounter1;
         private MetroFramework.Controls.MetroButton btnSharedDriveAccess;
         private MetroFramework.Controls.MetroButton btnScreenSaverExemption;
-        private MetroFramework.Controls.MetroButton btnMSLyncAccountCreation;
+        private System.Windows.Forms.Label label1;
     }
 }

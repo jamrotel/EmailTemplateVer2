@@ -40,9 +40,9 @@
             this.btnGroupEmailAccountCreation.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnGroupEmailAccountCreation.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnGroupEmailAccountCreation.ForeColor = System.Drawing.Color.White;
-            this.btnGroupEmailAccountCreation.Location = new System.Drawing.Point(216, 98);
+            this.btnGroupEmailAccountCreation.Location = new System.Drawing.Point(26, 53);
             this.btnGroupEmailAccountCreation.Name = "btnGroupEmailAccountCreation";
-            this.btnGroupEmailAccountCreation.Size = new System.Drawing.Size(152, 35);
+            this.btnGroupEmailAccountCreation.Size = new System.Drawing.Size(174, 35);
             this.btnGroupEmailAccountCreation.TabIndex = 23;
             this.btnGroupEmailAccountCreation.Text = "Group Email Account \r\nCreation";
             this.btnGroupEmailAccountCreation.UseCustomBackColor = true;
@@ -67,9 +67,9 @@
             this.btnGroupEmailAccountAccess.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnGroupEmailAccountAccess.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnGroupEmailAccountAccess.ForeColor = System.Drawing.Color.White;
-            this.btnGroupEmailAccountAccess.Location = new System.Drawing.Point(216, 139);
+            this.btnGroupEmailAccountAccess.Location = new System.Drawing.Point(26, 94);
             this.btnGroupEmailAccountAccess.Name = "btnGroupEmailAccountAccess";
-            this.btnGroupEmailAccountAccess.Size = new System.Drawing.Size(152, 35);
+            this.btnGroupEmailAccountAccess.Size = new System.Drawing.Size(174, 35);
             this.btnGroupEmailAccountAccess.TabIndex = 26;
             this.btnGroupEmailAccountAccess.Text = "Group Email Account \r\nAccess";
             this.btnGroupEmailAccountAccess.UseCustomBackColor = true;
@@ -82,9 +82,9 @@
             this.btnGroupEmailAccountModification.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnGroupEmailAccountModification.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnGroupEmailAccountModification.ForeColor = System.Drawing.Color.White;
-            this.btnGroupEmailAccountModification.Location = new System.Drawing.Point(216, 180);
+            this.btnGroupEmailAccountModification.Location = new System.Drawing.Point(26, 135);
             this.btnGroupEmailAccountModification.Name = "btnGroupEmailAccountModification";
-            this.btnGroupEmailAccountModification.Size = new System.Drawing.Size(152, 35);
+            this.btnGroupEmailAccountModification.Size = new System.Drawing.Size(174, 35);
             this.btnGroupEmailAccountModification.TabIndex = 27;
             this.btnGroupEmailAccountModification.Text = "Group Email Account \r\nModification";
             this.btnGroupEmailAccountModification.UseCustomBackColor = true;
@@ -97,9 +97,9 @@
             this.btnGroupEmailAccountDeletion.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnGroupEmailAccountDeletion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnGroupEmailAccountDeletion.ForeColor = System.Drawing.Color.White;
-            this.btnGroupEmailAccountDeletion.Location = new System.Drawing.Point(216, 221);
+            this.btnGroupEmailAccountDeletion.Location = new System.Drawing.Point(26, 176);
             this.btnGroupEmailAccountDeletion.Name = "btnGroupEmailAccountDeletion";
-            this.btnGroupEmailAccountDeletion.Size = new System.Drawing.Size(152, 35);
+            this.btnGroupEmailAccountDeletion.Size = new System.Drawing.Size(174, 35);
             this.btnGroupEmailAccountDeletion.TabIndex = 28;
             this.btnGroupEmailAccountDeletion.Text = "Group Email Account \r\nDeletion";
             this.btnGroupEmailAccountDeletion.UseCustomBackColor = true;

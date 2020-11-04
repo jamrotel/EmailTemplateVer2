@@ -36,37 +36,28 @@ namespace EmailTemplate.Panel
             em.OpenElevatedAdmin();
         }
 
-        private void btnVPNAccess_Click(object sender, EventArgs e)
-        {
-            EmailTemplate em = new EmailTemplate();
-            em.OpenVPNRemoteAccessRequest();
-        }
-
-        private void btnRemoteAccessCitrix_Click(object sender, EventArgs e)
-        {
-            EmailTemplate em = new EmailTemplate();
-            em.OpenRemoteAccessCitrix();
-        }
-
-        private void btnSharedFileFolderAccess_Click(object sender, EventArgs e)
-        {
-            EmailTemplate em = new EmailTemplate();
-            em.OpenShareFileAccess();
-        }
         private void btnSharedDriveAccess_Click(object sender, EventArgs e)
         {
             EmailTemplate em = new EmailTemplate();
             em.OpenSharedDriveAccess();
         }
-        private void btnMSLyncAccountCreation_Click(object sender, EventArgs e)
-        {
-            EmailTemplate em = new EmailTemplate();
-            em.OpenMSLyncAccount();
-        }
+
         private void btnAudioWebConferencing_Click(object sender, EventArgs e)
         {
             EmailTemplate em =new EmailTemplate();
             em.OpenAudioWebConferencing();
+        }
+
+        private void btnScreenSaverExemption_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenScreenSaverExemption();
+        }
+
+        private void btnRemoteAccessRequest_Click(object sender, EventArgs e)
+        {
+            EmailTemplate em = new EmailTemplate();
+            em.OpenRemoteAccessRequest();
         }
         //===============Installation-Accss-REQUEST===================
     }

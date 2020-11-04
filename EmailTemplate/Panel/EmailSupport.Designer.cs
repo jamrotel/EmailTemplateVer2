@@ -36,6 +36,7 @@
             this.metroButton25 = new MetroFramework.Controls.MetroButton();
             this.metroButton26 = new MetroFramework.Controls.MetroButton();
             this.btnGenericAccount = new MetroFramework.Controls.MetroButton();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // metroButton16
@@ -43,7 +44,7 @@
             this.metroButton16.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.metroButton16.ForeColor = System.Drawing.Color.White;
-            this.metroButton16.Location = new System.Drawing.Point(91, 178);
+            this.metroButton16.Location = new System.Drawing.Point(19, 151);
             this.metroButton16.Name = "metroButton16";
             this.metroButton16.Size = new System.Drawing.Size(193, 32);
             this.metroButton16.TabIndex = 21;
@@ -57,9 +58,9 @@
             this.metroButton21.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton21.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.metroButton21.ForeColor = System.Drawing.Color.White;
-            this.metroButton21.Location = new System.Drawing.Point(88, 102);
+            this.metroButton21.Location = new System.Drawing.Point(19, 75);
             this.metroButton21.Name = "metroButton21";
-            this.metroButton21.Size = new System.Drawing.Size(196, 32);
+            this.metroButton21.Size = new System.Drawing.Size(193, 32);
             this.metroButton21.TabIndex = 16;
             this.metroButton21.Text = "Email Creation";
             this.metroButton21.UseCustomBackColor = true;
@@ -71,9 +72,9 @@
             this.metroButton20.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.metroButton20.ForeColor = System.Drawing.Color.White;
-            this.metroButton20.Location = new System.Drawing.Point(88, 140);
+            this.metroButton20.Location = new System.Drawing.Point(19, 113);
             this.metroButton20.Name = "metroButton20";
-            this.metroButton20.Size = new System.Drawing.Size(196, 32);
+            this.metroButton20.Size = new System.Drawing.Size(193, 32);
             this.metroButton20.TabIndex = 17;
             this.metroButton20.Text = "Email Alias";
             this.metroButton20.UseCustomBackColor = true;
@@ -85,7 +86,7 @@
             this.metroButton23.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton23.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.metroButton23.ForeColor = System.Drawing.Color.White;
-            this.metroButton23.Location = new System.Drawing.Point(91, 216);
+            this.metroButton23.Location = new System.Drawing.Point(19, 189);
             this.metroButton23.Name = "metroButton23";
             this.metroButton23.Size = new System.Drawing.Size(193, 32);
             this.metroButton23.TabIndex = 26;
@@ -99,7 +100,7 @@
             this.metroButton24.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton24.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.metroButton24.ForeColor = System.Drawing.Color.White;
-            this.metroButton24.Location = new System.Drawing.Point(304, 181);
+            this.metroButton24.Location = new System.Drawing.Point(218, 154);
             this.metroButton24.Name = "metroButton24";
             this.metroButton24.Size = new System.Drawing.Size(193, 29);
             this.metroButton24.TabIndex = 24;
@@ -113,7 +114,7 @@
             this.metroButton25.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton25.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.metroButton25.ForeColor = System.Drawing.Color.White;
-            this.metroButton25.Location = new System.Drawing.Point(304, 216);
+            this.metroButton25.Location = new System.Drawing.Point(218, 189);
             this.metroButton25.Name = "metroButton25";
             this.metroButton25.Size = new System.Drawing.Size(193, 32);
             this.metroButton25.TabIndex = 25;
@@ -127,7 +128,7 @@
             this.metroButton26.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.metroButton26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.metroButton26.ForeColor = System.Drawing.Color.White;
-            this.metroButton26.Location = new System.Drawing.Point(304, 140);
+            this.metroButton26.Location = new System.Drawing.Point(218, 113);
             this.metroButton26.Name = "metroButton26";
             this.metroButton26.Size = new System.Drawing.Size(193, 32);
             this.metroButton26.TabIndex = 23;
@@ -141,7 +142,7 @@
             this.btnGenericAccount.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.btnGenericAccount.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
             this.btnGenericAccount.ForeColor = System.Drawing.Color.White;
-            this.btnGenericAccount.Location = new System.Drawing.Point(304, 102);
+            this.btnGenericAccount.Location = new System.Drawing.Point(218, 75);
             this.btnGenericAccount.Name = "btnGenericAccount";
             this.btnGenericAccount.Size = new System.Drawing.Size(193, 32);
             this.btnGenericAccount.TabIndex = 27;
@@ -150,11 +151,24 @@
             this.btnGenericAccount.UseCustomForeColor = true;
             this.btnGenericAccount.UseSelectable = true;
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            this.label1.ImeMode = System.Windows.Forms.ImeMode.NoControl;
+            this.label1.Location = new System.Drawing.Point(14, 20);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(195, 25);
+            this.label1.TabIndex = 28;
+            this.label1.Text = "EMAIL SUPPORT";
+            // 
             // EmailSupport
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.btnGenericAccount);
             this.Controls.Add(this.metroButton23);
             this.Controls.Add(this.metroButton24);
@@ -165,6 +179,7 @@
             this.Controls.Add(this.metroButton20);
             this.Name = "EmailSupport";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -177,5 +192,6 @@
         private MetroFramework.Controls.MetroButton metroButton25;
         private MetroFramework.Controls.MetroButton metroButton26;
         private MetroFramework.Controls.MetroButton btnGenericAccount;
+        private System.Windows.Forms.Label label1;
     }
 }

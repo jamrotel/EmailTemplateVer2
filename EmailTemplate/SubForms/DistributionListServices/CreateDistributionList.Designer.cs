@@ -94,7 +94,7 @@
             this.btnGenerate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnGenerate.Location = new System.Drawing.Point(336, 427);
             this.btnGenerate.Name = "btnGenerate";
-            this.btnGenerate.Size = new System.Drawing.Size(112, 32);
+            this.btnGenerate.Size = new System.Drawing.Size(99, 32);
             this.btnGenerate.TabIndex = 10;
             this.btnGenerate.Text = "Generate";
             this.btnGenerate.UseVisualStyleBackColor = true;
@@ -106,7 +106,7 @@
             this.btnClear.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnClear.Location = new System.Drawing.Point(220, 427);
             this.btnClear.Name = "btnClear";
-            this.btnClear.Size = new System.Drawing.Size(112, 32);
+            this.btnClear.Size = new System.Drawing.Size(99, 32);
             this.btnClear.TabIndex = 9;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = true;
@@ -249,7 +249,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(471, 470);
+            this.ClientSize = new System.Drawing.Size(463, 470);
             this.Controls.Add(this.txtOwner);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.txtDLEmail);
@@ -273,7 +273,8 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "CreateDistributionList";
-            this.Text = "Create Distribution List";
+            this.Resizable = false;
+            this.Text = "Email | Create Distribution List";
             this.ResumeLayout(false);
             this.PerformLayout();
 

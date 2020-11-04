@@ -111,6 +111,12 @@
     <Compile Include="Panel\ApplicationAccessRequest.Designer.cs">
       <DependentUpon>ApplicationAccessRequest.cs</DependentUpon>
     </Compile>
+    <Compile Include="Panel\SystemAccountServices.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panel\SystemAccountServices.Designer.cs">
+      <DependentUpon>SystemAccountServices.cs</DependentUpon>
+    </Compile>
     <Compile Include="Panel\GroupEmailAccount.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -209,11 +215,17 @@
     <Compile Include="SubForms\EmailAccountServices\EmailDelegates.Designer.cs">
       <DependentUpon>EmailDelegates.cs</DependentUpon>
     </Compile>
-    <Compile Include="SubForms\EmailSupport\GenericAccountCreation.cs">
+    <Compile Include="SubForms\SystemAccountServices\GenericAccountCreation.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SubForms\EmailSupport\GenericAccountCreation.Designer.cs">
+    <Compile Include="SubForms\SystemAccountServices\GenericAccountCreation.Designer.cs">
       <DependentUpon>GenericAccountCreation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SubForms\InstallationAccessRequest\ScreenSaverExemption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SubForms\InstallationAccessRequest\ScreenSaverExemption.Designer.cs">
+      <DependentUpon>ScreenSaverExemption.cs</DependentUpon>
     </Compile>
     <Compile Include="SubForms\UserAccountServices\MailContactModification.cs">
       <SubType>Form</SubType>
@@ -263,17 +275,11 @@
     <Compile Include="SubForms\InstallationAccessRequest\ElevatedAdminRights.Designer.cs">
       <DependentUpon>ElevatedAdminRights.cs</DependentUpon>
     </Compile>
-    <Compile Include="SubForms\InstallationAccessRequest\MSLyncAccount.cs">
+    <Compile Include="SubForms\InstallationAccessRequest\RemoteAccessRequest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="SubForms\InstallationAccessRequest\MSLyncAccount.Designer.cs">
-      <DependentUpon>MSLyncAccount.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SubForms\InstallationAccessRequest\RemoteAccessCitrix.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SubForms\InstallationAccessRequest\RemoteAccessCitrix.Designer.cs">
-      <DependentUpon>RemoteAccessCitrix.cs</DependentUpon>
+    <Compile Include="SubForms\InstallationAccessRequest\RemoteAccessRequest.Designer.cs">
+      <DependentUpon>RemoteAccessRequest.cs</DependentUpon>
     </Compile>
     <Compile Include="SubForms\InstallationAccessRequest\AudioWebConferencing.cs">
       <SubType>Form</SubType>
@@ -286,18 +292,6 @@
     </Compile>
     <Compile Include="SubForms\InstallationAccessRequest\SharedDriveAccess.Designer.cs">
       <DependentUpon>SharedDriveAccess.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SubForms\InstallationAccessRequest\ShareFileAccess.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SubForms\InstallationAccessRequest\ShareFileAccess.Designer.cs">
-      <DependentUpon>ShareFileAccess.cs</DependentUpon>
-    </Compile>
-    <Compile Include="SubForms\InstallationAccessRequest\VPNAccess.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="SubForms\InstallationAccessRequest\VPNAccess.Designer.cs">
-      <DependentUpon>VPNAccess.cs</DependentUpon>
     </Compile>
     <Compile Include="SubForms\InstallationAccessRequest\SoftwareInstallation.cs">
       <SubType>Form</SubType>
@@ -352,6 +346,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Version.tt</DependentUpon>
     </Compile>
+    <Content Include="Resources\systemaccount.png" />
+    <Content Include="Resources\systemaccount1.png" />
     <Content Include="Version.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <LastGenOutput>Version.cs</LastGenOutput>
@@ -370,6 +366,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Panel\ApplicationAccessRequest.resx">
       <DependentUpon>ApplicationAccessRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panel\SystemAccountServices.resx">
+      <DependentUpon>SystemAccountServices.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Panel\GroupEmailAccount.resx">
       <DependentUpon>GroupEmailAccount.cs</DependentUpon>
@@ -424,8 +423,11 @@
     <EmbeddedResource Include="SubForms\EmailAccountServices\EmailDelegates.resx">
       <DependentUpon>EmailDelegates.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SubForms\EmailSupport\GenericAccountCreation.resx">
+    <EmbeddedResource Include="SubForms\SystemAccountServices\GenericAccountCreation.resx">
       <DependentUpon>GenericAccountCreation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SubForms\InstallationAccessRequest\ScreenSaverExemption.resx">
+      <DependentUpon>ScreenSaverExemption.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubForms\UserAccountServices\MailContactModification.resx">
       <DependentUpon>MailContactModification.cs</DependentUpon>
@@ -451,23 +453,14 @@
     <EmbeddedResource Include="SubForms\InstallationAccessRequest\ElevatedAdminRights.resx">
       <DependentUpon>ElevatedAdminRights.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="SubForms\InstallationAccessRequest\MSLyncAccount.resx">
-      <DependentUpon>MSLyncAccount.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SubForms\InstallationAccessRequest\RemoteAccessCitrix.resx">
-      <DependentUpon>RemoteAccessCitrix.cs</DependentUpon>
+    <EmbeddedResource Include="SubForms\InstallationAccessRequest\RemoteAccessRequest.resx">
+      <DependentUpon>RemoteAccessRequest.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubForms\InstallationAccessRequest\AudioWebConferencing.resx">
       <DependentUpon>AudioWebConferencing.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubForms\InstallationAccessRequest\SharedDriveAccess.resx">
       <DependentUpon>SharedDriveAccess.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SubForms\InstallationAccessRequest\ShareFileAccess.resx">
-      <DependentUpon>ShareFileAccess.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="SubForms\InstallationAccessRequest\VPNAccess.resx">
-      <DependentUpon>VPNAccess.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="SubForms\InstallationAccessRequest\SoftwareInstallation.resx">
       <DependentUpon>SoftwareInstallation.cs</DependentUpon>
@@ -537,8 +530,8 @@
     <Content Include="Resources\open-email.png" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="SubForms\EmailSupport\" />
     <Folder Include="SubForms\MeetingRoom\" />
-    <Folder Include="SubForms\SystemAccountServices\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />

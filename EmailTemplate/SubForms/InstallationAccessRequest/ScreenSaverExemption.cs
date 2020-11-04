@@ -12,9 +12,9 @@ using Outlook = Microsoft.Office.Interop.Outlook;
 
 namespace EmailTemplate
 {
-    public partial class VPNAccess : MetroFramework.Forms.MetroForm
+    public partial class ScreenSaverExemption : MetroFramework.Forms.MetroForm
     {
-        public VPNAccess()
+        public ScreenSaverExemption()
         {
             InitializeComponent();
         }
